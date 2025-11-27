@@ -10,8 +10,9 @@ Instead, it uses the release year as the first part of the version number.
 
 Purely cosmetic changes (such as differences in paint or color/design of power base) does not warrant a new part.  This is not a wiki of historic part variations.  Exception: If the manufacturer designates a new part number for something, then it _should_ also be included as a new part here.  For example, the Ninco 10114 Starting Grid is identical to the 10103 Half Straight, except that it also has starting grid paint (which one could fairly argue provides a functional difference).  Thus, because the Starting Grid has its own part number, it is added here as a separate piece.  Yet, on the other hand, there are two different versions of the 10114 Starting Grid -- the older one has thinner paint lines and less staggered grid marks -- the newer one was introduced circa Ninco's N-Digital line.  These two versions should not be entered as separate parts.  My personal preference is to update the paint to the latest version, unless it is either a rare version, or is only a minor change that might look worse on screen.  For example, Ninco changed their Lane Changer paint from separated-red-white silkscreening to red-on-top-of-white silkscreening.  In this app, the older way looks better on screen -- especially when you alternate the draw order of the red/white striping (see the Ninco 10111 Crossover [that I have yet to update] for how muddy it can look when you don't alternate the red and white Z order).
 
+<!-- ## [Unreleased] -->
 
-## [v2024.1] - 06MAR2024, 01APR2024, 03JUL2024 MJJ
+## [2024.1] - 06MAR2024, 01APR2024, 03JUL2024 MJJ
 ### Breaking changes (removals)
 - Removed "Bridge Complete" because 10109 is a kit consisting of other track pieces (1x 10102, 2x 10103, etc.) just like any other Ninco kit.  Whoever first added this did the world a disservice.  Now, 10506, the Dune Extension Kit (an off-road bridge) needs some special attention at some point.  Even that, however, looks like it is made up of 2x of this and 2x of that.  Which, of course, should be entered separately so that bridges can be extended however on chooses.
 - Removed 40202-G (a made-up part number) in favor of the 10114 starting grid, but updated the paint on 10114 to the latest version.  This fixes my mistake about the N-Digital-era starting grid being a different part number than the older starting grid with different paint.  Only the paint differs, not the part number.
@@ -62,17 +63,17 @@ Purely cosmetic changes (such as differences in paint or color/design of power b
 - Added 10413 WI-CO Power Base
 
 
-## [v2008.1] - 29JUN2008 MJJ
+## [2008.1] - 29JUN2008 MJJ
 - Added all currently known N-Digital track pieces.
 - Added all off-road and snow track... with color!
 - Smoothed the crossover lines a tad.
 - Not sure when: Updated the finish-line art on 10101 Starting Straight.
 
 
-## [v3.0b] - 05NOV2005 Original
+## [3.0b] - 05NOV2005 Original
 - The original `Tracker20.df3` found in Tracker 2000 V3.0b.
 
-## v2.1 - 08JUN2004
+## 2.1 - 08JUN2004
 - `Tracker21.df3` and earlier versions are not included in this repo.
 
 
@@ -81,3 +82,9 @@ Purely cosmetic changes (such as differences in paint or color/design of power b
 Hint: To make red/white striping display the best on screen (if you care), alternate the order you draw/create the red and white polys (or post-edit the file in a text editor to do the alternating).  That way, it alternates which outline draws on top, giving better balance between the two.  I should maybe go back and do this for the Ninco 10111 Crossover like it did the others (removing the background, adding white polys between the reds, and alternating from the middle out).
 
 I wonder if I have all the lanes backwards....?
+
+
+[unreleased]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2024.1...HEAD
+[2024.1]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2008.1...v2024.1
+[2008.1]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v3.0b...v2008.1
+[3.0b]: https://github.com/juanitogan/tracker-2000-track-definitions/releases/tag/v3.0b
