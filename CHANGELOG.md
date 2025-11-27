@@ -12,6 +12,10 @@ Purely cosmetic changes (such as differences in paint or color/design of power b
 
 <!-- ## [Unreleased] -->
 
+## [2025.1] - 11SEP2025 MJJ
+### Changes
+- Added hash marks to all pieces with N-Digital sensor strips to mark where the sensor strips are.  This is to help avoid placing pieces backwards when assembling the track from a b/w outline printout.  Also moved the lane-change lines on 40208 slightly to accommodate the sensor marks (and they are now more accurate for it).
+
 ## [2024.1] - 06MAR2024, 01APR2024, 03JUL2024 MJJ
 ### Breaking changes (removals)
 - Removed "Bridge Complete" because 10109 is a kit consisting of other track pieces (1x 10102, 2x 10103, etc.) just like any other Ninco kit.  Whoever first added this did the world a disservice.  Now, 10506, the Dune Extension Kit (an off-road bridge) needs some special attention at some point.  Even that, however, looks like it is made up of 2x of this and 2x of that.  Which, of course, should be entered separately so that bridges can be extended however on chooses.
@@ -84,7 +88,8 @@ Hint: To make red/white striping display the best on screen (if you care), alter
 I wonder if I have all the lanes backwards....?
 
 
-[unreleased]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2024.1...HEAD
+[unreleased]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2025.1...HEAD
+[2025.1]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2024.1...v2025.1
 [2024.1]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2008.1...v2024.1
 [2008.1]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v3.0b...v2008.1
 [3.0b]: https://github.com/juanitogan/tracker-2000-track-definitions/releases/tag/v3.0b
