@@ -1,6 +1,6 @@
 # Tracker 2000 Track Definitions
 
-![Tracker 2000 - Track Definitions Editor screenshot](https://github.com/juanitogan/tracker-2000-track-definitions/blob/master/wiki-images/T2K_Track_Definitions_Editor.png)
+![Tracker 2000 - Track Definitions Editor screenshot](/wiki-images/T2K_Track_Definitions_Editor.png)
 
 **NOTICE:** To be clear, **this is not the Tracker 2000 app.**
 
@@ -18,7 +18,7 @@ When I first got my Ninco N-Digital track, Tracker 2000 was the best of the trac
 
 Yes, Tracker 2000 is a severely outdated app from the Windows XP era.  But it still runs fine on modern Windows (other than the handful of poor UI decisions it was first built with--which take a tiny bit of getting used to).  It is unfortunate the source code was not released as I would be happy to fix many of those quirks.
 
-![Tracker 2000 - Ninco N-Digital track example](https://github.com/juanitogan/tracker-2000-track-definitions/blob/master/wiki-images/T2K_Ninco_Example_GJC_Nov2024.png)
+![Tracker 2000 - Ninco N-Digital track example](/wiki-images/T2K_Ninco_Example_GJC_Nov2024.png)
 
 ### What else? ###
 
