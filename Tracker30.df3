@@ -26105,7 +26105,7 @@ Ninco 1:32
 # Default Width
 18.000000
 # Number of parts
-16
+41
 #
 #
 # PART DEF
@@ -26114,11 +26114,11 @@ Straight
 # Type
 2
 # InnerBorderStep
-8
+32
 # InnerBorderWidth
 5.000000
 # OuterBorderStep
-8
+32
 # OuterBorderWidth
 5.000000
 # LaneDistance
@@ -26137,16 +26137,112 @@ Straight
 0
 #
 # PART DEF
+10111
+Crossover
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+32
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+1
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+2
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+4.500000
+# y
+0.000000
+# x
+4.500000
+# y
+2.000000
+# x
+5.000000
+# y
+8.000000
+# x
+13.000000
+# y
+32.000000
+# x
+13.500000
+# y
+38.000000
+# x
+13.500000
+# y
+40.000000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+6
+# x
+13.500000
+# y
+0.000000
+# x
+13.500000
+# y
+2.000000
+# x
+13.000000
+# y
+8.000000
+# x
+5.000000
+# y
+32.000000
+# x
+4.500000
+# y
+38.000000
+# x
+4.500000
+# y
+40.000000
+#
+# PART DEF
 10103
 Half Straight
 # Type
 2
 # InnerBorderStep
-4
+16
 # InnerBorderWidth
 5.000000
 # OuterBorderStep
-4
+16
 # OuterBorderWidth
 5.000000
 # LaneDistance
@@ -26170,11 +26266,11 @@ Quarter Straight
 # Type
 2
 # InnerBorderStep
-2
+8
 # InnerBorderWidth
 5.000000
 # OuterBorderStep
-2
+8
 # OuterBorderWidth
 5.000000
 # LaneDistance
@@ -26193,72 +26289,8 @@ Quarter Straight
 0
 #
 # PART DEF
-10105
-Standard Curve
-# Type
-1
-# InnerBorderStep
-4
-# InnerBorderWidth
-5.000000
-# OuterBorderStep
-8
-# OuterBorderWidth
-5.000000
-# LaneDistance
-9.000000
-# TravelLane1
-22.501699
-# TravelLane2
-29.570200
-# CrossTrack
-0
-# Curve Angle
-45.000000
-# Curve Width
-18.000000
-# Curve InnerRadius
-24.150002
-# Curve OuterRadius
-42.150002
-# NO SILKSCREEN
-0
-#
-# PART DEF
-10112
-Standard 1/2 Curve
-# Type
-1
-# InnerBorderStep
-2
-# InnerBorderWidth
-5.000000
-# OuterBorderStep
-4
-# OuterBorderWidth
-5.000000
-# LaneDistance
-9.000000
-# TravelLane1
-22.501699
-# TravelLane2
-29.570200
-# CrossTrack
-0
-# Curve Angle
-22.500000
-# Curve Width
-18.000000
-# Curve InnerRadius
-24.150002
-# Curve OuterRadius
-42.150002
-# NO SILKSCREEN
-0
-#
-# PART DEF
 10106
-Inner Curve
+R1 Inner Curve
 # Type
 1
 # InnerBorderStep
@@ -26266,15 +26298,15 @@ Inner Curve
 # InnerBorderWidth
 5.000000
 # OuterBorderStep
-6
+18
 # OuterBorderWidth
 5.000000
 # LaneDistance
 9.000000
 # TravelLane1
-8.364500
+8.354300
 # TravelLane2
-15.433100
+15.422900
 # CrossTrack
 0
 # Curve Angle
@@ -26282,83 +26314,19 @@ Inner Curve
 # Curve Width
 18.000000
 # Curve InnerRadius
-6.150000
+6.136999
 # Curve OuterRadius
-24.150000
+24.136999
 # NO SILKSCREEN
 0
 #
 # PART DEF
 10113
-Inner 1/2 Curve
+R1 Inner 1/2 Curve
 # Type
 1
 # InnerBorderStep
 2
-# InnerBorderWidth
-5.000000
-# OuterBorderStep
-4
-# OuterBorderWidth
-5.000000
-# LaneDistance
-9.000000
-# TravelLane1
-8.364500
-# TravelLane2
-15.433100
-# CrossTrack
-0
-# Curve Angle
-22.500000
-# Curve Width
-18.000000
-# Curve InnerRadius
-6.150000
-# Curve OuterRadius
-24.150000
-# NO SILKSCREEN
-0
-#
-# PART DEF
-10107
-Outer Curve
-# Type
-1
-# InnerBorderStep
-4
-# InnerBorderWidth
-5.000000
-# OuterBorderStep
-6
-# OuterBorderWidth
-5.000000
-# LaneDistance
-9.000000
-# TravelLane1
-18.319412
-# TravelLane2
-21.853704
-# CrossTrack
-0
-# Curve Angle
-22.500000
-# Curve Width
-18.000000
-# Curve InnerRadius
-42.150002
-# Curve OuterRadius
-60.150002
-# NO SILKSCREEN
-0
-#
-# PART DEF
-10108
-Outer Outer Curve
-# Type
-1
-# InnerBorderStep
-6
 # InnerBorderWidth
 5.000000
 # OuterBorderStep
@@ -26368,9 +26336,9 @@ Outer Outer Curve
 # LaneDistance
 9.000000
 # TravelLane1
-25.387997
+4.177140
 # TravelLane2
-28.922289
+7.711432
 # CrossTrack
 0
 # Curve Angle
@@ -26378,9 +26346,137 @@ Outer Outer Curve
 # Curve Width
 18.000000
 # Curve InnerRadius
-60.150002
+6.136999
 # Curve OuterRadius
-78.150002
+24.136999
+# NO SILKSCREEN
+0
+#
+# PART DEF
+10105
+R2 Standard Curve
+# Type
+1
+# InnerBorderStep
+14
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+28
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+22.491400
+# TravelLane2
+29.559999
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+18.000000
+# Curve InnerRadius
+24.137001
+# Curve OuterRadius
+42.137001
+# NO SILKSCREEN
+0
+#
+# PART DEF
+10112
+R2 Standard 1/2 Curve
+# Type
+1
+# InnerBorderStep
+7
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+14
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+11.245700
+# TravelLane2
+14.780000
+# CrossTrack
+0
+# Curve Angle
+22.500000
+# Curve Width
+18.000000
+# Curve InnerRadius
+24.137001
+# Curve OuterRadius
+42.137001
+# NO SILKSCREEN
+0
+#
+# PART DEF
+10107
+R3 Outer Curve
+# Type
+1
+# InnerBorderStep
+12
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+18
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+18.314301
+# TravelLane2
+21.848600
+# CrossTrack
+0
+# Curve Angle
+22.500000
+# Curve Width
+18.000000
+# Curve InnerRadius
+42.137001
+# Curve OuterRadius
+60.137001
+# NO SILKSCREEN
+0
+#
+# PART DEF
+10108
+R4 Grand Curve
+# Type
+1
+# InnerBorderStep
+18
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+24
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+25.382900
+# TravelLane2
+28.917200
+# CrossTrack
+0
+# Curve Angle
+22.500000
+# Curve Width
+18.000000
+# Curve InnerRadius
+60.137001
+# Curve OuterRadius
+78.137001
 # NO SILKSCREEN
 0
 #
@@ -26390,11 +26486,11 @@ Starting Straight
 # Type
 2
 # InnerBorderStep
-8
+32
 # InnerBorderWidth
 5.000000
 # OuterBorderStep
-8
+32
 # OuterBorderWidth
 5.000000
 # LaneDistance
@@ -26414,7 +26510,7 @@ Starting Straight
 # FREEHAND
 #
 # Number of SHAPES
-2
+6
 # Shape
 2
 # Color
@@ -26451,6 +26547,5518 @@ Starting Straight
 2.250000
 # y
 28.000000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+0.500000
+# y
+19.750000
+# x
+3.500000
+# y
+20.250000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+5.500000
+# y
+19.750000
+# x
+8.500000
+# y
+20.250000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+9.500000
+# y
+19.750000
+# x
+12.500000
+# y
+20.250000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+14.500000
+# y
+19.750000
+# x
+17.500000
+# y
+20.250000
+#
+# PART DEF
+10114
+Starting Grid
+# Type
+2
+# InnerBorderStep
+16
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+16
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+20.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+2
+# Shape
+2
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+4
+# x
+1.000000
+# y
+17.500000
+# x
+1.000000
+# y
+18.500000
+# x
+8.000000
+# y
+18.500000
+# x
+8.000000
+# y
+17.500000
+# Shape
+2
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+4
+# x
+10.000000
+# y
+13.000000
+# x
+10.000000
+# y
+14.000000
+# x
+17.000000
+# y
+14.000000
+# x
+17.000000
+# y
+13.000000
+#
+# PART DEF
+40202
+N-Digital Starting Straight
+# Type
+2
+# InnerBorderStep
+0
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+16
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+20.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+9
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+0.500000
+# y
+9.750000
+# x
+3.500000
+# y
+10.250000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+5.500000
+# y
+9.750000
+# x
+8.500000
+# y
+10.250000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+9.500000
+# y
+9.750000
+# x
+12.500000
+# y
+10.250000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+14.500000
+# y
+9.750000
+# x
+17.500000
+# y
+10.250000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+3
+# x
+9.000000
+# y
+12.000000
+# x
+8.250000
+# y
+10.750000
+# x
+9.750000
+# y
+10.750000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+18.000000
+# y
+1.000000
+# x
+29.000000
+# y
+2.000000
+# x
+29.000000
+# y
+18.000000
+# x
+18.000000
+# y
+19.000000
+# Shape
+3
+# Color
+0
+# Penwidth
+1
+# Num of points
+4
+# x
+18.500000
+# y
+3.500000
+# x
+27.500000
+# y
+4.000000
+# x
+27.500000
+# y
+16.000000
+# x
+18.500000
+# y
+16.500000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+20.500000
+# y
+5.500000
+# x
+26.500000
+# y
+6.500000
+# x
+26.500000
+# y
+13.500000
+# x
+20.500000
+# y
+14.500000
+# Shape
+7
+# Color
+13434828
+# Penwidth
+1
+# Num of points
+2
+# x
+21.750000
+# y
+6.750000
+# x
+25.250000
+# y
+13.250000
+#
+# PART DEF
+40202-G
+N-Digital Starting Grid
+# Type
+2
+# InnerBorderStep
+16
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+16
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+20.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+4
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+1.000000
+# y
+15.500000
+# x
+3.750000
+# y
+15.500000
+# x
+3.750000
+# y
+15.000000
+# x
+1.500000
+# y
+15.000000
+# x
+1.500000
+# y
+13.750000
+# x
+1.000000
+# y
+13.750000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+8.000000
+# y
+15.500000
+# x
+5.250000
+# y
+15.500000
+# x
+5.250000
+# y
+15.000000
+# x
+7.500000
+# y
+15.000000
+# x
+7.500000
+# y
+13.750000
+# x
+8.000000
+# y
+13.750000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+17.000000
+# y
+5.500000
+# x
+14.250000
+# y
+5.500000
+# x
+14.250000
+# y
+5.000000
+# x
+16.500000
+# y
+5.000000
+# x
+16.500000
+# y
+3.750000
+# x
+17.000000
+# y
+3.750000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+10.000000
+# y
+5.500000
+# x
+12.750000
+# y
+5.500000
+# x
+12.750000
+# y
+5.000000
+# x
+10.500000
+# y
+5.000000
+# x
+10.500000
+# y
+3.750000
+# x
+10.000000
+# y
+3.750000
+#
+# PART DEF
+40201-R2L
+Lane Change Right to Left
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+32
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+10
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+25.500000
+# x
+5.500000
+# y
+24.500000
+# x
+7.000000
+# y
+25.000000
+# x
+8.300000
+# y
+24.100000
+# x
+8.700000
+# y
+25.000000
+# x
+7.200000
+# y
+26.000000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+7.000000
+# y
+25.000000
+# x
+8.300000
+# y
+24.100000
+# x
+8.000000
+# y
+23.200001
+# x
+6.800000
+# y
+24.000000
+# x
+5.500000
+# y
+23.600000
+# x
+5.500000
+# y
+24.500000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+22.600000
+# x
+5.500000
+# y
+23.600000
+# x
+6.800000
+# y
+24.000000
+# x
+8.000000
+# y
+23.200001
+# x
+7.600000
+# y
+22.300001
+# x
+6.700000
+# y
+23.000000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+21.700001
+# x
+5.500000
+# y
+22.600000
+# x
+6.700000
+# y
+23.000000
+# x
+7.600000
+# y
+22.300001
+# x
+7.300000
+# y
+21.400000
+# x
+6.500000
+# y
+22.000000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+20.700001
+# x
+5.500000
+# y
+21.700001
+# x
+6.500000
+# y
+22.000000
+# x
+7.300000
+# y
+21.400000
+# x
+6.900000
+# y
+20.500000
+# x
+6.300000
+# y
+21.000000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+19.800001
+# x
+5.500000
+# y
+20.700001
+# x
+6.300000
+# y
+21.000000
+# x
+6.900000
+# y
+20.500000
+# x
+6.600000
+# y
+19.600000
+# x
+6.100000
+# y
+20.000000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+18.800001
+# x
+5.500000
+# y
+19.800001
+# x
+6.100000
+# y
+20.000000
+# x
+6.600000
+# y
+19.600000
+# x
+6.200000
+# y
+18.700001
+# x
+5.900000
+# y
+19.000000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+17.900000
+# x
+5.500000
+# y
+18.800001
+# x
+5.900000
+# y
+19.000000
+# x
+6.200000
+# y
+18.700001
+# x
+5.900000
+# y
+17.800001
+# x
+5.700000
+# y
+18.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+4.500000
+# y
+9.500000
+# x
+5.500000
+# y
+14.000000
+# x
+12.500000
+# y
+32.500000
+# x
+13.500000
+# y
+37.000000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+5.500000
+# y
+17.900000
+# x
+5.700000
+# y
+18.000000
+# x
+5.900000
+# y
+17.800001
+# x
+5.500000
+# y
+16.800001
+#
+# PART DEF
+40201-L2R
+Lane Change Left to Right
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+32
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+10
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+4
+# x
+13.500000
+# y
+9.500000
+# x
+12.500000
+# y
+14.000000
+# x
+5.500000
+# y
+32.500000
+# x
+4.500000
+# y
+37.000000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+25.500000
+# x
+10.800000
+# y
+26.000000
+# x
+9.300000
+# y
+25.000000
+# x
+9.700000
+# y
+24.100000
+# x
+11.000000
+# y
+25.000000
+# x
+12.500000
+# y
+24.500000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+24.500000
+# x
+11.000000
+# y
+25.000000
+# x
+9.700000
+# y
+24.100000
+# x
+10.000000
+# y
+23.200001
+# x
+11.200000
+# y
+24.000000
+# x
+12.500000
+# y
+23.600000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+23.600000
+# x
+11.200000
+# y
+24.000000
+# x
+10.000000
+# y
+23.200001
+# x
+10.400001
+# y
+22.300001
+# x
+11.300000
+# y
+23.000000
+# x
+12.500000
+# y
+22.600000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+22.600000
+# x
+11.300000
+# y
+23.000000
+# x
+10.400001
+# y
+22.300001
+# x
+10.700000
+# y
+21.400000
+# x
+11.500000
+# y
+22.000000
+# x
+12.500000
+# y
+21.700001
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+21.700001
+# x
+11.500000
+# y
+22.000000
+# x
+10.700000
+# y
+21.400000
+# x
+11.100000
+# y
+20.500000
+# x
+11.700000
+# y
+21.000000
+# x
+12.500000
+# y
+20.700001
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+20.700001
+# x
+11.700000
+# y
+21.000000
+# x
+11.100000
+# y
+20.500000
+# x
+11.400001
+# y
+19.600000
+# x
+11.900001
+# y
+20.000000
+# x
+12.500000
+# y
+19.800001
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+19.800001
+# x
+11.900001
+# y
+20.000000
+# x
+11.400001
+# y
+19.600000
+# x
+11.800000
+# y
+18.700001
+# x
+12.100000
+# y
+19.000000
+# x
+12.500000
+# y
+18.800001
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+18.800001
+# x
+12.100000
+# y
+19.000000
+# x
+11.800000
+# y
+18.700001
+# x
+12.100000
+# y
+17.800001
+# x
+12.300000
+# y
+18.000000
+# x
+12.500000
+# y
+17.900000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+12.500000
+# y
+17.900000
+# x
+12.300000
+# y
+18.000000
+# x
+12.100000
+# y
+17.800001
+# x
+12.500000
+# y
+16.800001
+#
+# PART DEF
+40207
+Double Lane Change
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+32
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+16
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+23.100000
+# x
+5.500000
+# y
+24.100000
+# x
+6.800000
+# y
+24.500000
+# x
+8.000000
+# y
+23.700001
+# x
+7.600000
+# y
+22.800001
+# x
+6.700000
+# y
+23.500000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+22.200001
+# x
+5.500000
+# y
+23.100000
+# x
+6.700000
+# y
+23.500000
+# x
+7.600000
+# y
+22.800001
+# x
+7.300000
+# y
+21.900000
+# x
+6.500000
+# y
+22.500000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+21.200001
+# x
+5.500000
+# y
+22.200001
+# x
+6.500000
+# y
+22.500000
+# x
+7.300000
+# y
+21.900000
+# x
+6.900000
+# y
+21.000000
+# x
+6.300000
+# y
+21.500000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+20.299999
+# x
+5.500000
+# y
+21.199999
+# x
+6.300000
+# y
+21.499998
+# x
+6.900000
+# y
+20.999998
+# x
+6.600000
+# y
+20.099998
+# x
+6.100000
+# y
+20.499998
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+19.300003
+# x
+5.500000
+# y
+20.300003
+# x
+6.100000
+# y
+20.500002
+# x
+6.600000
+# y
+20.100002
+# x
+6.200000
+# y
+19.200003
+# x
+5.900000
+# y
+19.500002
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+5.500000
+# y
+18.399998
+# x
+5.500000
+# y
+19.299999
+# x
+5.900000
+# y
+19.499998
+# x
+6.200000
+# y
+19.199999
+# x
+5.900000
+# y
+18.299999
+# x
+5.700000
+# y
+18.499998
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+4.500000
+# y
+10.000000
+# x
+5.500000
+# y
+14.500000
+# x
+12.500000
+# y
+33.000000
+# x
+13.500000
+# y
+37.500000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+5.500000
+# y
+18.400002
+# x
+5.700000
+# y
+18.500002
+# x
+5.900000
+# y
+18.300003
+# x
+5.500000
+# y
+17.300003
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+4
+# x
+13.500000
+# y
+10.000000
+# x
+12.500000
+# y
+14.500000
+# x
+5.500000
+# y
+33.000000
+# x
+4.500000
+# y
+37.500000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+24.100000
+# x
+11.200000
+# y
+24.500000
+# x
+10.000000
+# y
+23.700001
+# x
+10.400001
+# y
+22.800001
+# x
+11.300000
+# y
+23.500000
+# x
+12.500000
+# y
+23.100000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+23.100000
+# x
+11.300000
+# y
+23.500000
+# x
+10.400001
+# y
+22.800001
+# x
+10.700000
+# y
+21.900000
+# x
+11.500000
+# y
+22.500000
+# x
+12.500000
+# y
+22.200001
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+22.200001
+# x
+11.500000
+# y
+22.500000
+# x
+10.700000
+# y
+21.900000
+# x
+11.100000
+# y
+21.000000
+# x
+11.700000
+# y
+21.500000
+# x
+12.500000
+# y
+21.200001
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500000
+# y
+21.200001
+# x
+11.700000
+# y
+21.500000
+# x
+11.100000
+# y
+21.000000
+# x
+11.400001
+# y
+20.100000
+# x
+11.900001
+# y
+20.500000
+# x
+12.500000
+# y
+20.300001
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+12.499999
+# y
+20.300007
+# x
+11.900000
+# y
+20.500006
+# x
+11.400000
+# y
+20.100006
+# x
+11.799999
+# y
+19.200006
+# x
+12.099999
+# y
+19.500006
+# x
+12.499999
+# y
+19.300007
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+12.500001
+# y
+19.299999
+# x
+12.100001
+# y
+19.499998
+# x
+11.800001
+# y
+19.199999
+# x
+12.100001
+# y
+18.299999
+# x
+12.300001
+# y
+18.499998
+# x
+12.500001
+# y
+18.399998
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+12.500001
+# y
+18.400002
+# x
+12.300001
+# y
+18.500002
+# x
+12.100001
+# y
+18.300003
+# x
+12.500001
+# y
+17.300003
+#
+# PART DEF
+40203-S
+Pit Lane Start
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+0
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+12
+# Shape
+3
+# Color
+0
+# Penwidth
+1
+# Num of points
+5
+# x
+0.000000
+# y
+40.000000
+# x
+-9.000000
+# y
+40.000000
+# x
+-9.000000
+# y
+38.000000
+# x
+-7.500000
+# y
+30.500000
+# x
+0.000000
+# y
+9.500000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-9.000000
+# y
+38.000000
+# x
+-4.500000
+# y
+40.000000
+# x
+0.000000
+# y
+38.000000
+# x
+0.000000
+# y
+37.000000
+# x
+-4.500000
+# y
+39.000000
+# x
+-8.750000
+# y
+37.000000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-8.250000
+# y
+34.500000
+# x
+-4.250000
+# y
+36.750000
+# x
+0.000000
+# y
+35.500000
+# x
+0.000000
+# y
+34.500000
+# x
+-4.000000
+# y
+35.750000
+# x
+-8.000000
+# y
+33.250000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-7.500000
+# y
+30.750000
+# x
+-3.750000
+# y
+33.750000
+# x
+0.000000
+# y
+33.000000
+# x
+0.000000
+# y
+32.000000
+# x
+-3.500000
+# y
+32.500000
+# x
+-7.000000
+# y
+29.500000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-6.250000
+# y
+27.250000
+# x
+-3.000000
+# y
+30.500000
+# x
+0.000000
+# y
+30.250000
+# x
+0.000000
+# y
+29.250000
+# x
+-2.750000
+# y
+29.500000
+# x
+-5.750000
+# y
+26.000000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-5.000000
+# y
+24.000000
+# x
+-2.000000
+# y
+27.500000
+# x
+0.000000
+# y
+27.250000
+# x
+0.000000
+# y
+26.250000
+# x
+-1.750000
+# y
+26.500000
+# x
+-4.750000
+# y
+23.000000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-3.750000
+# y
+20.750000
+# x
+-0.750000
+# y
+24.000000
+# x
+0.000000
+# y
+24.000000
+# x
+0.000000
+# y
+23.000000
+# x
+-0.500000
+# y
+23.000000
+# x
+-3.500000
+# y
+19.750000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+4
+# x
+-2.750000
+# y
+17.750000
+# x
+0.000000
+# y
+20.250000
+# x
+0.000000
+# y
+19.000000
+# x
+-2.500000
+# y
+16.750000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+4
+# x
+-1.750000
+# y
+14.750000
+# x
+0.000000
+# y
+16.000000
+# x
+0.000000
+# y
+14.750000
+# x
+-1.500000
+# y
+13.750000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+-4.500000
+# y
+40.000000
+# x
+-4.500000
+# y
+38.000000
+# x
+-3.000000
+# y
+30.500000
+# x
+4.500000
+# y
+9.500000
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+2
+# x
+9.000000
+# y
+0.000000
+# x
+9.000000
+# y
+40.000000
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+2
+# x
+-9.000000
+# y
+40.000000
+# x
+0.000000
+# y
+40.000000
+#
+# PART DEF
+40203-M
+Pit Lane Middle
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+0
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+8
+# Shape
+7
+# Color
+0
+# Penwidth
+1
+# Num of points
+2
+# x
+-9.000000
+# y
+40.000000
+# x
+0.000000
+# y
+0.000000
+# Shape
+6
+# Color
+65535
+# Penwidth
+1
+# Num of points
+2
+# x
+-7.650000
+# y
+7.750002
+# x
+-1.350000
+# y
+39.250000
+# Shape
+2
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-7.650000
+# y
+7.750000
+# x
+-1.350000
+# y
+14.049999
+# x
+-7.650000
+# y
+20.350002
+# x
+-1.350000
+# y
+26.650002
+# x
+-7.650000
+# y
+32.950001
+# x
+-1.350000
+# y
+39.250000
+# Shape
+2
+# Color
+65535
+# Penwidth
+1
+# Num of points
+13
+# x
+-5.550000
+# y
+7.750000
+# x
+-1.350000
+# y
+11.950001
+# x
+-7.650000
+# y
+18.250000
+# x
+-1.350000
+# y
+24.549999
+# x
+-7.650000
+# y
+30.849998
+# x
+-1.350000
+# y
+37.149998
+# x
+-3.450000
+# y
+39.249996
+# x
+-7.650000
+# y
+35.049999
+# x
+-1.350000
+# y
+28.750000
+# x
+-7.650000
+# y
+22.450001
+# x
+-1.350000
+# y
+16.150000
+# x
+-7.650000
+# y
+9.850000
+# x
+-5.550000
+# y
+7.750000
+# Shape
+2
+# Color
+65535
+# Penwidth
+1
+# Num of points
+13
+# x
+-3.450000
+# y
+7.750000
+# x
+-1.350000
+# y
+9.850000
+# x
+-7.650000
+# y
+16.150000
+# x
+-1.350000
+# y
+22.450001
+# x
+-7.650000
+# y
+28.750000
+# x
+-1.350000
+# y
+35.049999
+# x
+-5.550000
+# y
+39.249996
+# x
+-7.650000
+# y
+37.149998
+# x
+-1.350000
+# y
+30.849998
+# x
+-7.650000
+# y
+24.549999
+# x
+-1.350000
+# y
+18.250000
+# x
+-7.650000
+# y
+11.950001
+# x
+-3.450000
+# y
+7.750000
+# Shape
+2
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-1.350000
+# y
+7.750000
+# x
+-7.650000
+# y
+14.049999
+# x
+-1.350000
+# y
+20.350000
+# x
+-7.650000
+# y
+26.650000
+# x
+-1.350000
+# y
+32.950001
+# x
+-7.650000
+# y
+39.250004
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+-4.500000
+# y
+0.000000
+# x
+-4.500000
+# y
+40.000000
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+4
+# x
+-9.000000
+# y
+0.000000
+# x
+0.000000
+# y
+0.000000
+# x
+0.000000
+# y
+40.000000
+# x
+-9.000000
+# y
+40.000000
+#
+# PART DEF
+40203-E
+Pit Lane End
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+0
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+14
+# Shape
+3
+# Color
+0
+# Penwidth
+1
+# Num of points
+5
+# x
+0.000000
+# y
+0.000000
+# x
+-9.000000
+# y
+0.000000
+# x
+-9.000000
+# y
+2.000000
+# x
+-7.500000
+# y
+9.500000
+# x
+0.000000
+# y
+30.500000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+7
+# x
+-9.000000
+# y
+0.000000
+# x
+-9.000000
+# y
+1.250000
+# x
+-4.250000
+# y
+3.000000
+# x
+0.000000
+# y
+0.500000
+# x
+0.000000
+# y
+0.000000
+# x
+-1.000000
+# y
+0.000000
+# x
+-4.500000
+# y
+2.000000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-8.500000
+# y
+4.000000
+# x
+-8.250000
+# y
+5.250000
+# x
+-3.750000
+# y
+6.000000
+# x
+0.000000
+# y
+3.250000
+# x
+0.000000
+# y
+2.250000
+# x
+-4.000000
+# y
+5.000000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-7.750000
+# y
+7.750000
+# x
+-7.500000
+# y
+9.000000
+# x
+-3.000000
+# y
+9.250000
+# x
+0.000000
+# y
+6.500000
+# x
+0.000000
+# y
+5.500000
+# x
+-3.250000
+# y
+8.250000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-6.750000
+# y
+11.250000
+# x
+-6.250000
+# y
+12.250000
+# x
+-2.000000
+# y
+12.250000
+# x
+0.000000
+# y
+10.500000
+# x
+0.000000
+# y
+9.250000
+# x
+-2.500000
+# y
+11.250000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+6
+# x
+-5.750000
+# y
+14.250000
+# x
+-5.250000
+# y
+15.250000
+# x
+-1.000000
+# y
+15.250000
+# x
+0.000000
+# y
+14.750000
+# x
+0.000000
+# y
+13.500000
+# x
+-1.250000
+# y
+14.250000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+4
+# x
+-4.500000
+# y
+17.500000
+# x
+-4.000000
+# y
+18.500000
+# x
+0.000000
+# y
+18.500000
+# x
+0.000000
+# y
+17.500000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+4
+# x
+-3.500000
+# y
+20.500000
+# x
+-3.000000
+# y
+21.500000
+# x
+0.000000
+# y
+21.500000
+# x
+0.000000
+# y
+20.500000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+4
+# x
+-2.250000
+# y
+23.500000
+# x
+-2.000000
+# y
+24.250000
+# x
+0.000000
+# y
+24.500000
+# x
+0.000000
+# y
+23.500000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+4
+# x
+-1.500000
+# y
+26.000000
+# x
+-1.250000
+# y
+26.750000
+# x
+0.000000
+# y
+27.000000
+# x
+0.000000
+# y
+26.250000
+# Shape
+3
+# Color
+65535
+# Penwidth
+1
+# Num of points
+4
+# x
+-0.500000
+# y
+28.500000
+# x
+-0.250000
+# y
+29.500000
+# x
+0.000000
+# y
+29.500000
+# x
+0.000000
+# y
+28.750000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+-4.500000
+# y
+0.000000
+# x
+-4.500000
+# y
+2.000000
+# x
+-3.000000
+# y
+9.500000
+# x
+4.500000
+# y
+30.500000
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+2
+# x
+9.000000
+# y
+0.000000
+# x
+9.000000
+# y
+40.000000
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+2
+# x
+-9.000000
+# y
+0.000000
+# x
+0.000000
+# y
+0.000000
+#
+# PART DEF
+40205
+Control Tower
+# Type
+2
+# InnerBorderStep
+16
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+0
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+20.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+5
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+3
+# x
+9.000000
+# y
+11.750000
+# x
+8.250000
+# y
+10.500000
+# x
+9.750000
+# y
+10.500000
+# Shape
+3
+# Color
+0
+# Penwidth
+1
+# Num of points
+6
+# x
+0.000000
+# y
+6.250000
+# x
+-6.000000
+# y
+6.250000
+# x
+-8.250000
+# y
+8.500000
+# x
+-8.250000
+# y
+11.500000
+# x
+-6.000000
+# y
+13.750000
+# x
+0.000000
+# y
+13.750000
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+2
+# x
+-0.750000
+# y
+6.250000
+# x
+-0.750000
+# y
+13.750000
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+9
+# x
+-5.500000
+# y
+7.250000
+# x
+-7.250000
+# y
+9.000000
+# x
+-7.250000
+# y
+11.000000
+# x
+-5.500000
+# y
+12.750000
+# x
+-3.500000
+# y
+12.750000
+# x
+-1.750000
+# y
+11.000000
+# x
+-1.750000
+# y
+9.000000
+# x
+-3.500000
+# y
+7.250000
+# x
+-5.500000
+# y
+7.250000
+# Shape
+3
+# Color
+12632256
+# Penwidth
+1
+# Num of points
+4
+# x
+-4.500000
+# y
+9.500000
+# x
+-5.000000
+# y
+10.000000
+# x
+-4.500000
+# y
+10.500000
+# x
+-4.000000
+# y
+10.000000
+#
+# PART DEF
+40206
+Multilane Sensor
+# Type
+2
+# InnerBorderStep
+16
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+16
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+20.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+5
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+0.500000
+# y
+9.750000
+# x
+3.500000
+# y
+10.250000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+5.500000
+# y
+9.750000
+# x
+8.500000
+# y
+10.250000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+9.500000
+# y
+9.750000
+# x
+12.500000
+# y
+10.250000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+14.500000
+# y
+9.750000
+# x
+17.500000
+# y
+10.250000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+3
+# x
+9.000000
+# y
+12.250000
+# x
+8.250000
+# y
+11.000000
+# x
+9.750000
+# y
+11.000000
+#
+# PART DEF
+40204-223R
+Multilane, Lane 2 to 3, Right Half
+# Type
+2
+# InnerBorderStep
+0
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+32
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+11
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+14.500002
+# y
+25.499998
+# x
+14.500002
+# y
+24.499998
+# x
+16.000002
+# y
+24.999998
+# x
+17.300003
+# y
+24.099998
+# x
+17.700001
+# y
+24.999998
+# x
+16.200003
+# y
+25.999998
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+16.000000
+# y
+25.000000
+# x
+17.299999
+# y
+24.100000
+# x
+17.000000
+# y
+23.200001
+# x
+15.800000
+# y
+24.000000
+# x
+14.500000
+# y
+23.600000
+# x
+14.500000
+# y
+24.500000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+14.500001
+# y
+22.600002
+# x
+14.500001
+# y
+23.600002
+# x
+15.800001
+# y
+24.000002
+# x
+17.000000
+# y
+23.200003
+# x
+16.600000
+# y
+22.300003
+# x
+15.700001
+# y
+23.000002
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+14.500001
+# y
+21.700001
+# x
+14.500001
+# y
+22.600000
+# x
+15.700002
+# y
+23.000000
+# x
+16.600002
+# y
+22.300001
+# x
+16.299999
+# y
+21.400000
+# x
+15.500000
+# y
+22.000000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+14.500000
+# y
+20.700001
+# x
+14.500000
+# y
+21.700001
+# x
+15.500000
+# y
+22.000000
+# x
+16.300001
+# y
+21.400000
+# x
+15.900000
+# y
+20.500000
+# x
+15.300000
+# y
+21.000000
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+14.500000
+# y
+19.799999
+# x
+14.500000
+# y
+20.699999
+# x
+15.300000
+# y
+21.000000
+# x
+15.900000
+# y
+20.499998
+# x
+15.600000
+# y
+19.599998
+# x
+15.100000
+# y
+19.999998
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+14.500002
+# y
+18.799999
+# x
+14.500002
+# y
+19.799999
+# x
+15.100002
+# y
+19.999998
+# x
+15.600002
+# y
+19.599998
+# x
+15.200003
+# y
+18.699999
+# x
+14.900002
+# y
+18.999998
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+14.500000
+# y
+17.899996
+# x
+14.500000
+# y
+18.799997
+# x
+14.900000
+# y
+18.999996
+# x
+15.200001
+# y
+18.699997
+# x
+14.900000
+# y
+17.799997
+# x
+14.700001
+# y
+17.999996
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+4
+# x
+13.500000
+# y
+9.500000
+# x
+14.500000
+# y
+14.000000
+# x
+21.500000
+# y
+32.500000
+# x
+22.500000
+# y
+37.000000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+14.500003
+# y
+17.900000
+# x
+14.700003
+# y
+18.000000
+# x
+14.900003
+# y
+17.800001
+# x
+14.500003
+# y
+16.800001
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+2
+# x
+9.000000
+# y
+0.000000
+# x
+9.000000
+# y
+40.000000
+#
+# PART DEF
+40204-223L
+Multilane, Lane 2 to 3, Left Half
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+0
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+2
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+4
+# x
+-4.500000
+# y
+9.500000
+# x
+-3.500000
+# y
+14.000000
+# x
+3.500000
+# y
+32.500000
+# x
+4.500000
+# y
+37.000000
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+2
+# x
+9.000000
+# y
+0.000000
+# x
+9.000000
+# y
+40.000000
+#
+# PART DEF
+40204-322R
+Multilane, Lane 3 to 2, Right Half
+# Type
+2
+# InnerBorderStep
+0
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+32
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+2
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+22.500000
+# y
+9.500000
+# x
+21.500000
+# y
+14.000000
+# x
+14.500000
+# y
+32.500000
+# x
+13.500000
+# y
+37.000000
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+2
+# x
+9.000000
+# y
+0.000000
+# x
+9.000000
+# y
+40.000000
+#
+# PART DEF
+40204-322L
+Multilane, Lane 3 to 2, Left Half
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+0
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+11
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+4.500000
+# y
+9.500000
+# x
+3.500000
+# y
+14.000000
+# x
+-3.500000
+# y
+32.500000
+# x
+-4.500000
+# y
+37.000000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+3.500002
+# y
+25.500002
+# x
+1.800002
+# y
+26.000002
+# x
+0.300002
+# y
+25.000002
+# x
+0.700002
+# y
+24.100002
+# x
+2.000002
+# y
+25.000002
+# x
+3.500002
+# y
+24.500002
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+3.500000
+# y
+24.500000
+# x
+2.000000
+# y
+25.000000
+# x
+0.700000
+# y
+24.100000
+# x
+1.000000
+# y
+23.200001
+# x
+2.200000
+# y
+24.000000
+# x
+3.500000
+# y
+23.600000
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+3.500000
+# y
+23.600002
+# x
+2.200000
+# y
+24.000002
+# x
+1.000000
+# y
+23.200003
+# x
+1.400001
+# y
+22.300003
+# x
+2.300000
+# y
+23.000002
+# x
+3.500000
+# y
+22.600002
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+3.500000
+# y
+22.600000
+# x
+2.300000
+# y
+23.000000
+# x
+1.400001
+# y
+22.300001
+# x
+1.700000
+# y
+21.400000
+# x
+2.500000
+# y
+22.000000
+# x
+3.500000
+# y
+21.700001
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+3.500000
+# y
+21.699997
+# x
+2.500000
+# y
+21.999996
+# x
+1.700000
+# y
+21.399996
+# x
+2.100000
+# y
+20.499996
+# x
+2.700000
+# y
+20.999996
+# x
+3.500000
+# y
+20.699997
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+3.500000
+# y
+20.699997
+# x
+2.700000
+# y
+20.999996
+# x
+2.100000
+# y
+20.499996
+# x
+2.400001
+# y
+19.599997
+# x
+2.900001
+# y
+19.999996
+# x
+3.500000
+# y
+19.799997
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+6
+# x
+3.500000
+# y
+19.799999
+# x
+2.900001
+# y
+19.999998
+# x
+2.400001
+# y
+19.599998
+# x
+2.800000
+# y
+18.699999
+# x
+3.100000
+# y
+18.999998
+# x
+3.500000
+# y
+18.799999
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+6
+# x
+3.500002
+# y
+18.800003
+# x
+3.100002
+# y
+19.000002
+# x
+2.800002
+# y
+18.700003
+# x
+3.100002
+# y
+17.800003
+# x
+3.300002
+# y
+18.000002
+# x
+3.500002
+# y
+17.900002
+# Shape
+3
+# Color
+255
+# Penwidth
+1
+# Num of points
+4
+# x
+3.500004
+# y
+17.899998
+# x
+3.300004
+# y
+17.999998
+# x
+3.100004
+# y
+17.799999
+# x
+3.500004
+# y
+16.799999
+# Shape
+2
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+2
+# x
+9.000000
+# y
+0.000000
+# x
+9.000000
+# y
+40.000000
+#
+# PART DEF
+10153
+Off-road Straight
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+32
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+3
+# Shape
+7
+# Color
+10079487
+# Penwidth
+1
+# Num of points
+2
+# x
+0.000000
+# y
+0.000000
+# x
+18.000000
+# y
+40.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+4.500000
+# y
+0.000000
+# x
+4.500000
+# y
+40.000000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+13.500000
+# y
+0.000000
+# x
+13.500000
+# y
+40.000000
+#
+# PART DEF
+10151
+Off-road Half Straight
+# Type
+2
+# InnerBorderStep
+16
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+16
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+20.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+3
+# Shape
+7
+# Color
+10079487
+# Penwidth
+1
+# Num of points
+2
+# x
+0.000000
+# y
+0.000000
+# x
+18.000000
+# y
+20.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+4.500000
+# y
+0.000000
+# x
+4.500000
+# y
+20.000000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+13.500000
+# y
+0.000000
+# x
+13.500000
+# y
+20.000000
+#
+# PART DEF
+10154
+Off-road R1 Inner Curve
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+18
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+8.354300
+# TravelLane2
+15.422900
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+18.000000
+# Curve InnerRadius
+6.136999
+# Curve OuterRadius
+24.136999
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+3
+# Shape
+3
+# Color
+10079487
+# Penwidth
+1
+# Num of points
+15
+# x
+0.000000
+# y
+0.000000
+# x
+0.100000
+# y
+2.100000
+# x
+0.400000
+# y
+4.200000
+# x
+0.800000
+# y
+6.200000
+# x
+1.500000
+# y
+8.300000
+# x
+2.300000
+# y
+10.200000
+# x
+3.300000
+# y
+12.100000
+# x
+4.400000
+# y
+13.800000
+# x
+5.700000
+# y
+15.500000
+# x
+7.100000
+# y
+17.100000
+# x
+19.800001
+# y
+4.300000
+# x
+19.000000
+# y
+3.400000
+# x
+18.400000
+# y
+2.300000
+# x
+18.100000
+# y
+1.200000
+# x
+18.000000
+# y
+0.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+7
+# x
+4.500000
+# y
+0.000000
+# x
+4.600000
+# y
+2.500000
+# x
+5.100000
+# y
+5.100000
+# x
+6.000000
+# y
+7.500000
+# x
+7.100000
+# y
+9.800000
+# x
+8.500000
+# y
+11.900001
+# x
+10.299999
+# y
+13.900001
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+7
+# x
+13.499999
+# y
+0.000000
+# x
+13.600000
+# y
+1.400000
+# x
+13.800000
+# y
+2.700000
+# x
+14.299999
+# y
+4.000000
+# x
+14.900000
+# y
+5.200000
+# x
+15.700000
+# y
+6.400000
+# x
+16.599998
+# y
+7.500000
+#
+# PART DEF
+10152
+Off-road R2 Standard Curve
+# Type
+1
+# InnerBorderStep
+14
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+28
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+22.491400
+# TravelLane2
+29.559999
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+18.000000
+# Curve InnerRadius
+24.137001
+# Curve OuterRadius
+42.137001
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+3
+# Shape
+3
+# Color
+10079487
+# Penwidth
+1
+# Num of points
+15
+# x
+0.000000
+# y
+0.000000
+# x
+0.300000
+# y
+5.400000
+# x
+1.400000
+# y
+10.600000
+# x
+3.200000
+# y
+16.000000
+# x
+5.600000
+# y
+20.900000
+# x
+8.800000
+# y
+25.700001
+# x
+12.300000
+# y
+29.700001
+# x
+25.000000
+# y
+17.000000
+# x
+23.200001
+# y
+15.000000
+# x
+21.600000
+# y
+12.800000
+# x
+20.300001
+# y
+10.400001
+# x
+19.200001
+# y
+7.900000
+# x
+18.500000
+# y
+5.300000
+# x
+18.100000
+# y
+2.600000
+# x
+18.000000
+# y
+0.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+7
+# x
+4.500000
+# y
+0.000000
+# x
+4.800000
+# y
+5.100000
+# x
+5.800000
+# y
+9.800000
+# x
+7.300000
+# y
+14.400001
+# x
+9.500000
+# y
+18.700001
+# x
+12.200000
+# y
+22.800001
+# x
+15.500000
+# y
+26.500000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+7
+# x
+13.500000
+# y
+0.000000
+# x
+13.600000
+# y
+3.700000
+# x
+14.400001
+# y
+7.500000
+# x
+15.700000
+# y
+11.100000
+# x
+17.400000
+# y
+14.500000
+# x
+19.500000
+# y
+17.600000
+# x
+21.800001
+# y
+20.200001
+#
+# PART DEF
+10505-S
+Off-road Start
+# Type
+2
+# InnerBorderStep
+16
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+16
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+20.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+4
+# Shape
+3
+# Color
+10079487
+# Penwidth
+1
+# Num of points
+15
+# x
+18.000000
+# y
+20.000000
+# x
+18.000000
+# y
+5.000000
+# x
+16.500000
+# y
+5.000000
+# x
+15.500000
+# y
+5.250000
+# x
+14.250000
+# y
+5.250000
+# x
+13.250000
+# y
+4.750000
+# x
+11.250000
+# y
+5.000000
+# x
+9.750000
+# y
+5.500000
+# x
+8.000000
+# y
+4.750000
+# x
+6.000000
+# y
+5.000000
+# x
+4.000000
+# y
+5.250000
+# x
+2.750000
+# y
+4.750000
+# x
+0.750000
+# y
+5.000000
+# x
+0.000000
+# y
+5.000000
+# x
+0.000000
+# y
+20.000000
+# Shape
+3
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+27
+# x
+18.000000
+# y
+6.000000
+# x
+16.750000
+# y
+5.750000
+# x
+15.500000
+# y
+6.250000
+# x
+14.000000
+# y
+6.000000
+# x
+12.500000
+# y
+6.000000
+# x
+10.750000
+# y
+6.250000
+# x
+9.250000
+# y
+6.000000
+# x
+8.000000
+# y
+6.250000
+# x
+7.000000
+# y
+5.750000
+# x
+5.750000
+# y
+6.000000
+# x
+4.250000
+# y
+6.000000
+# x
+3.000000
+# y
+6.250000
+# x
+1.750000
+# y
+5.750000
+# x
+0.000000
+# y
+6.000000
+# x
+0.000000
+# y
+4.000000
+# x
+1.250000
+# y
+4.250000
+# x
+2.750000
+# y
+4.000000
+# x
+4.250000
+# y
+4.000000
+# x
+6.000000
+# y
+4.250000
+# x
+8.000000
+# y
+4.000000
+# x
+9.500000
+# y
+4.250000
+# x
+10.750000
+# y
+4.000000
+# x
+12.500000
+# y
+4.000000
+# x
+14.000000
+# y
+4.250000
+# x
+15.250000
+# y
+4.000000
+# x
+16.500000
+# y
+4.250000
+# x
+18.000000
+# y
+4.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+4.500000
+# y
+0.000000
+# x
+4.500000
+# y
+20.000000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+13.500000
+# y
+0.000000
+# x
+13.500000
+# y
+20.000000
+#
+# PART DEF
+10505-E
+Off-road End
+# Type
+2
+# InnerBorderStep
+16
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+16
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+20.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+4
+# Shape
+3
+# Color
+10079487
+# Penwidth
+1
+# Num of points
+15
+# x
+0.000000
+# y
+0.000000
+# x
+0.000000
+# y
+15.000000
+# x
+1.500000
+# y
+15.000000
+# x
+2.500000
+# y
+15.250000
+# x
+3.750000
+# y
+15.250000
+# x
+4.750000
+# y
+14.750000
+# x
+6.750000
+# y
+15.000000
+# x
+8.250000
+# y
+15.500000
+# x
+10.000000
+# y
+14.750000
+# x
+12.000000
+# y
+15.000000
+# x
+14.000000
+# y
+15.250000
+# x
+15.250000
+# y
+14.750000
+# x
+17.250000
+# y
+15.000000
+# x
+18.000000
+# y
+15.000000
+# x
+18.000000
+# y
+0.000000
+# Shape
+3
+# Color
+8421504
+# Penwidth
+1
+# Num of points
+27
+# x
+0.000000
+# y
+16.000000
+# x
+1.250000
+# y
+15.750000
+# x
+2.500000
+# y
+16.250000
+# x
+4.000000
+# y
+16.000000
+# x
+5.500000
+# y
+16.000000
+# x
+7.250000
+# y
+16.250000
+# x
+8.750000
+# y
+16.000000
+# x
+10.000000
+# y
+16.250000
+# x
+11.000000
+# y
+15.750000
+# x
+12.250000
+# y
+16.000000
+# x
+13.750000
+# y
+16.000000
+# x
+15.000000
+# y
+16.250000
+# x
+16.250000
+# y
+15.750000
+# x
+18.000000
+# y
+16.000000
+# x
+18.000000
+# y
+14.000000
+# x
+16.750000
+# y
+14.250000
+# x
+15.250000
+# y
+14.000000
+# x
+13.750000
+# y
+14.000000
+# x
+12.000000
+# y
+14.250000
+# x
+10.000000
+# y
+14.000000
+# x
+8.500000
+# y
+14.250000
+# x
+7.250000
+# y
+14.000000
+# x
+5.500000
+# y
+14.000000
+# x
+4.000000
+# y
+14.250000
+# x
+2.750000
+# y
+14.000000
+# x
+1.500000
+# y
+14.250000
+# x
+0.000000
+# y
+14.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+4.500000
+# y
+0.000000
+# x
+4.500000
+# y
+20.000000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+13.500000
+# y
+0.000000
+# x
+13.500000
+# y
+20.000000
+#
+# PART DEF
+10161
+Snow Straight
+# Type
+2
+# InnerBorderStep
+32
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+32
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+3
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+0.000000
+# y
+0.000000
+# x
+18.000000
+# y
+40.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+4.500000
+# y
+0.000000
+# x
+4.500000
+# y
+40.000000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+13.500000
+# y
+0.000000
+# x
+13.500000
+# y
+40.000000
+#
+# PART DEF
+10164
+Snow Half Straight
+# Type
+2
+# InnerBorderStep
+16
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+16
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+18.000000
+# Straight Length
+20.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+3
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+0.000000
+# y
+0.000000
+# x
+18.000000
+# y
+20.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+4.500000
+# y
+0.000000
+# x
+4.500000
+# y
+20.000000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+13.500000
+# y
+0.000000
+# x
+13.500000
+# y
+20.000000
+#
+# PART DEF
+10163
+Snow R1 Inner Curve
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+18
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+8.354280
+# TravelLane2
+15.422863
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+18.000000
+# Curve InnerRadius
+6.136999
+# Curve OuterRadius
+24.136999
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+3
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+15
+# x
+0.000000
+# y
+0.000000
+# x
+0.100000
+# y
+2.100000
+# x
+0.400000
+# y
+4.200000
+# x
+0.800000
+# y
+6.200000
+# x
+1.500000
+# y
+8.300000
+# x
+2.300000
+# y
+10.200000
+# x
+3.300000
+# y
+12.100000
+# x
+4.400000
+# y
+13.800000
+# x
+5.700000
+# y
+15.500000
+# x
+7.100000
+# y
+17.100000
+# x
+19.800001
+# y
+4.300000
+# x
+19.000000
+# y
+3.400000
+# x
+18.400000
+# y
+2.300000
+# x
+18.100000
+# y
+1.200000
+# x
+18.000000
+# y
+0.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+7
+# x
+4.500000
+# y
+0.000000
+# x
+4.600000
+# y
+2.500000
+# x
+5.100000
+# y
+5.100000
+# x
+6.000000
+# y
+7.500000
+# x
+7.100000
+# y
+9.800000
+# x
+8.500000
+# y
+11.900001
+# x
+10.299999
+# y
+13.900001
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+7
+# x
+13.499999
+# y
+0.000000
+# x
+13.600000
+# y
+1.400000
+# x
+13.800000
+# y
+2.700000
+# x
+14.299999
+# y
+4.000000
+# x
+14.900000
+# y
+5.200000
+# x
+15.700000
+# y
+6.400000
+# x
+16.599998
+# y
+7.500000
+#
+# PART DEF
+10162
+Snow R2 Standard Curve
+# Type
+1
+# InnerBorderStep
+14
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+28
+# OuterBorderWidth
+5.000000
+# LaneDistance
+9.000000
+# TravelLane1
+22.491400
+# TravelLane2
+29.559999
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+18.000000
+# Curve InnerRadius
+24.137001
+# Curve OuterRadius
+42.137001
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+3
+# Shape
+3
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+15
+# x
+0.000000
+# y
+0.000000
+# x
+0.300000
+# y
+5.400000
+# x
+1.400000
+# y
+10.600000
+# x
+3.200000
+# y
+16.000000
+# x
+5.600000
+# y
+20.900000
+# x
+8.800000
+# y
+25.700001
+# x
+12.300000
+# y
+29.700001
+# x
+25.000000
+# y
+17.000000
+# x
+23.200001
+# y
+15.000000
+# x
+21.600000
+# y
+12.800000
+# x
+20.300001
+# y
+10.400001
+# x
+19.200001
+# y
+7.900000
+# x
+18.500000
+# y
+5.300000
+# x
+18.100000
+# y
+2.600000
+# x
+18.000000
+# y
+0.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+7
+# x
+4.500000
+# y
+0.000000
+# x
+4.800000
+# y
+5.100000
+# x
+5.800000
+# y
+9.800000
+# x
+7.300000
+# y
+14.400001
+# x
+9.500000
+# y
+18.700001
+# x
+12.200000
+# y
+22.800001
+# x
+15.500000
+# y
+26.500000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+7
+# x
+13.500000
+# y
+0.000000
+# x
+13.600000
+# y
+3.700000
+# x
+14.400001
+# y
+7.500000
+# x
+15.700000
+# y
+11.100000
+# x
+17.400000
+# y
+14.500000
+# x
+19.500000
+# y
+17.600000
+# x
+21.800001
+# y
+20.200001
+#
+# PART DEF
+10504-SE
+Roundabout Start/End
+# Type
+1
+# InnerBorderStep
+0
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+0
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.001000
+# TravelLane1
+29.559601
+# TravelLane2
+29.560400
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+9.000000
+# Curve InnerRadius
+27.536999
+# Curve OuterRadius
+36.536999
+# NO SILKSCREEN
+0
+#
+# PART DEF
+10504-M
+Roundabout Middle
+# Type
+1
+# InnerBorderStep
+0
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+18
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.001000
+# TravelLane1
+17.239100
+# TravelLane2
+17.239901
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+9.000000
+# Curve InnerRadius
+15.136999
+# Curve OuterRadius
+24.136999
+# NO SILKSCREEN
+0
+#
+# PART DEF
+10110-N2S
+Chicane Ninco to SCX
+# Type
+3
+# InnerBorderStep
+0
+# InnerBorderWidth
+0.000000
+# OuterBorderStep
+0
+# OuterBorderWidth
+0.000000
+# LaneDistance
+9.000000
+# TravelLane1
+22.299999
+# TravelLane2
+22.299999
+# CrossTrack
+0
+# Interface Width1
+18.000000
+# Interface Width2
+15.557500
+# Interface Length
+22.299999
+# NO SILKSCREEN
+0
+#
+# PART DEF
+10110-S2N
+Chicane SCX to Ninco
+# Type
+3
+# InnerBorderStep
+0
+# InnerBorderWidth
+0.000000
+# OuterBorderStep
+0
+# OuterBorderWidth
+0.000000
+# LaneDistance
+9.000000
+# TravelLane1
+22.299999
+# TravelLane2
+22.299999
+# CrossTrack
+0
+# Interface Width1
+15.557200
+# Interface Width2
+18.000000
+# Interface Length
+22.299999
+# NO SILKSCREEN
+0
 #
 # PART DEF
 10109
@@ -26539,210 +32147,6 @@ Bridge Complete
 18.000000
 # y
 0.000000
-#
-# PART DEF
-10110
-Ninco to SCX
-# Type
-3
-# InnerBorderStep
-0
-# InnerBorderWidth
-0.000000
-# OuterBorderStep
-0
-# OuterBorderWidth
-0.000000
-# LaneDistance
-9.000000
-# TravelLane1
-22.299999
-# TravelLane2
-22.299999
-# CrossTrack
-0
-# Interface Width1
-18.000000
-# Interface Width2
-15.557500
-# Interface Length
-22.299999
-# NO SILKSCREEN
-0
-#
-# PART DEF
-10110r
-Ninco to SCX reverse
-# Type
-3
-# InnerBorderStep
-0
-# InnerBorderWidth
-0.000000
-# OuterBorderStep
-0
-# OuterBorderWidth
-0.000000
-# LaneDistance
-9.000000
-# TravelLane1
-22.299999
-# TravelLane2
-22.299999
-# CrossTrack
-0
-# Interface Width1
-15.557200
-# Interface Width2
-18.000000
-# Interface Length
-22.299999
-# NO SILKSCREEN
-0
-#
-# PART DEF
-10111
-Change Over
-# Type
-2
-# InnerBorderStep
-8
-# InnerBorderWidth
-4.000000
-# OuterBorderStep
-8
-# OuterBorderWidth
-4.000000
-# LaneDistance
-0.000000
-# TravelLane1
-40.000000
-# TravelLane2
-40.000000
-# CrossTrack
-1
-# Straight Width
-18.000000
-# Straight Length
-40.000000
-# SILKSCREEN
-1
-# FREEHAND
-#
-# Number of SHAPES
-2
-# Shape
-2
-# Color
-255
-# Penwidth
-1
-# Num of points
-4
-# x
-4.500000
-# y
-0.000000
-# x
-4.500000
-# y
-10.000000
-# x
-13.500000
-# y
-30.000000
-# x
-13.500000
-# y
-40.000000
-# Shape
-2
-# Color
-65280
-# Penwidth
-1
-# Num of points
-4
-# x
-13.500000
-# y
-0.000000
-# x
-13.500000
-# y
-10.000000
-# x
-4.500000
-# y
-30.000000
-# x
-4.500000
-# y
-40.000000
-#
-# PART DEF
-10505a
-Rally loop 1
-# Type
-1
-# InnerBorderStep
-0
-# InnerBorderWidth
-5.000000
-# OuterBorderStep
-0
-# OuterBorderWidth
-5.000000
-# LaneDistance
-0.001000
-# TravelLane1
-22.501699
-# TravelLane2
-29.570200
-# CrossTrack
-0
-# Curve Angle
-45.000000
-# Curve Width
-9.000000
-# Curve InnerRadius
-33.150002
-# Curve OuterRadius
-42.150002
-# NO SILKSCREEN
-0
-#
-# PART DEF
-10505b
-Rally loop 2
-# Type
-1
-# InnerBorderStep
-0
-# InnerBorderWidth
-5.000000
-# OuterBorderStep
-0
-# OuterBorderWidth
-5.000000
-# LaneDistance
-0.001000
-# TravelLane1
-8.364500
-# TravelLane2
-15.433100
-# CrossTrack
-0
-# Curve Angle
-45.000000
-# Curve Width
-9.000000
-# Curve InnerRadius
-17.500000
-# Curve OuterRadius
-26.500000
-# NO SILKSCREEN
-0
 #
 # BRAND DEF
 POLISTIL
