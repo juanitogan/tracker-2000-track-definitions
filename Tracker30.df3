@@ -27242,7 +27242,7 @@ N-Digital Power Base
 # FREEHAND
 #
 # Number of SHAPES
-9
+13
 # Shape
 7
 # Color
@@ -27415,6 +27415,70 @@ N-Digital Power Base
 25.250000
 # y
 13.250000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+5.750000
+# x
+5.500000
+# y
+5.750000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+14.250000
+# x
+5.500000
+# y
+14.250000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+12.500000
+# y
+5.750000
+# x
+14.500000
+# y
+5.750000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+12.500000
+# y
+14.250000
+# x
+14.500000
+# y
+14.250000
 #
 # PART DEF
 10114
@@ -27606,7 +27670,7 @@ Lane Change Left to Right
 # FREEHAND
 #
 # Number of SHAPES
-10
+12
 # Shape
 2
 # Color
@@ -27911,6 +27975,38 @@ Lane Change Left to Right
 12.500000
 # y
 16.800001
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+12.500000
+# y
+2.500000
+# x
+14.500000
+# y
+2.500000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+12.500000
+# y
+7.000000
+# x
+14.500000
+# y
+7.000000
 #
 # PART DEF
 40203-S
@@ -27942,7 +28038,7 @@ Pit Lane Start
 # FREEHAND
 #
 # Number of SHAPES
-12
+14
 # Shape
 3
 # Color
@@ -28267,6 +28363,38 @@ Pit Lane Start
 0.000000
 # y
 40.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+2.500000
+# x
+5.500000
+# y
+2.500000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+7.000000
+# x
+5.500000
+# y
+7.000000
 #
 # PART DEF
 40201-R2L
@@ -28298,7 +28426,7 @@ Lane Change Right to Left
 # FREEHAND
 #
 # Number of SHAPES
-10
+12
 # Shape
 3
 # Color
@@ -28603,6 +28731,38 @@ Lane Change Right to Left
 5.500000
 # y
 16.800001
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+2.500000
+# x
+5.500000
+# y
+2.500000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+7.000000
+# x
+5.500000
+# y
+7.000000
 #
 # PART DEF
 40203-M
@@ -28634,7 +28794,7 @@ Pit Lane Middle
 # FREEHAND
 #
 # Number of SHAPES
-8
+10
 # Shape
 7
 # Color
@@ -28891,6 +29051,38 @@ Pit Lane Middle
 -9.000000
 # y
 40.000000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+-5.500000
+# y
+2.500000
+# x
+-3.500000
+# y
+2.500000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+-5.500000
+# y
+7.000000
+# x
+-3.500000
+# y
+7.000000
 #
 # PART DEF
 40207
@@ -28922,7 +29114,7 @@ Double Lane Change
 # FREEHAND
 #
 # Number of SHAPES
-16
+20
 # Shape
 3
 # Color
@@ -29403,6 +29595,70 @@ Double Lane Change
 12.500001
 # y
 17.300003
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+2.500000
+# x
+5.500000
+# y
+2.500000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+7.000000
+# x
+5.500000
+# y
+7.000000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+12.500000
+# y
+2.500000
+# x
+14.500000
+# y
+2.500000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+12.500000
+# y
+7.000000
+# x
+14.500000
+# y
+7.000000
 #
 # PART DEF
 40203-E
@@ -29838,7 +30094,7 @@ R2 Double Lane Change
 # FREEHAND
 #
 # Number of SHAPES
-16
+24
 # Shape
 2
 # Color
@@ -29848,9 +30104,9 @@ R2 Double Lane Change
 # Num of points
 9
 # x
-14.400001
+14.500000
 # y
-7.300000
+7.500000
 # x
 15.100000
 # y
@@ -29880,9 +30136,9 @@ R2 Double Lane Change
 # y
 33.900002
 # x
-32.500000
+34.400002
 # y
-36.299999
+36.700001
 # Shape
 2
 # Color
@@ -29892,9 +30148,9 @@ R2 Double Lane Change
 # Num of points
 9
 # x
-5.800000
+5.400000
 # y
-9.700000
+7.600000
 # x
 8.200000
 # y
@@ -29924,9 +30180,9 @@ R2 Double Lane Change
 # y
 26.900000
 # x
-34.799999
+34.500000
 # y
-27.700001
+27.600000
 # Shape
 3
 # Color
@@ -30359,6 +30615,134 @@ R2 Double Lane Change
 28.000000
 # y
 28.700001
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+2.600000
+# x
+5.700000
+# y
+2.500000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+4.000000
+# y
+7.000000
+# x
+6.200000
+# y
+6.600000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+39.500000
+# y
+38.500000
+# x
+39.600002
+# y
+36.400002
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+35.000000
+# y
+38.000000
+# x
+35.400002
+# y
+35.799999
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+12.500000
+# y
+2.600000
+# x
+14.600000
+# y
+2.500000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+13.300000
+# y
+7.000000
+# x
+15.400001
+# y
+6.600000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+39.500000
+# y
+29.600000
+# x
+39.600002
+# y
+27.300001
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+35.000000
+# y
+28.900000
+# x
+35.500000
+# y
+26.700001
 #
 # PART DEF
 40205
@@ -30558,7 +30942,7 @@ Multilane Sensor
 # FREEHAND
 #
 # Number of SHAPES
-5
+9
 # Shape
 7
 # Color
@@ -30643,6 +31027,70 @@ Multilane Sensor
 9.750000
 # y
 11.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+5.750000
+# x
+5.500000
+# y
+5.750000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+14.250000
+# x
+5.500000
+# y
+14.250000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+12.500000
+# y
+5.750000
+# x
+14.500000
+# y
+5.750000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+12.500000
+# y
+14.250000
+# x
+14.500000
+# y
+14.250000
 #
 # PART DEF
 40204-322
@@ -30674,7 +31122,7 @@ Multilane, Lane 3 to 2
 # FREEHAND
 #
 # Number of SHAPES
-13
+15
 # Shape
 3
 # Color
@@ -31027,6 +31475,38 @@ Multilane, Lane 3 to 2
 -4.500000
 # y
 37.000000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+2.500000
+# x
+5.500000
+# y
+2.500000
+# Shape
+2
+# Color
+255
+# Penwidth
+1
+# Num of points
+2
+# x
+3.500000
+# y
+7.000000
+# x
+5.500000
+# y
+7.000000
 #
 # PART DEF
 40204-223
@@ -31058,7 +31538,7 @@ Multilane, Lane 2 to 3
 # FREEHAND
 #
 # Number of SHAPES
-13
+15
 # Shape
 2
 # Color
@@ -31411,6 +31891,38 @@ Multilane, Lane 2 to 3
 -3.499994
 # y
 16.999998
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+-5.500000
+# y
+2.500000
+# x
+-3.500000
+# y
+2.500000
+# Shape
+2
+# Color
+65280
+# Penwidth
+1
+# Num of points
+2
+# x
+-5.500000
+# y
+7.000000
+# x
+-3.500000
+# y
+7.000000
 #
 # PART DEF
 10117-L1
