@@ -1,4 +1,4 @@
-# Tracker 2000 Track Definitions
+# Tracker 2000 Track Definitions (parts file)
 
 ![Tracker 2000 - Track Definitions Editor screenshot](/wiki-images/T2K_Track_Definitions_Editor.png)
 
@@ -24,13 +24,60 @@ Yes, Tracker 2000 is a severely outdated app from the Windows XP era.  But it st
 
 The wiki here contains both tips for using Tracker 2000 and a list of known bugs in Tracker 2000.  The goal is for the wiki to also contain hints and tips on the various tracks and systems.  For example, I have much to share about what I've learned about Ninco N-Digital and this will currently be the primary landing page for that.
 
+[**➡️ Jump to the wiki.**](https://github.com/juanitogan/tracker-2000-track-definitions/wiki)
+
+## How to use ##
+
+- Backup/rename your current `Tracker30.df3` file in your Tracker 2000 folder.
+- Download one of the `Tracker30.df3` files from this repo and copy it to your Tracker 2000 folder.
+
+## Included Track Systems ##
+
+| Brand | Current as of* | Last updated |
+|-------|:-------------:|:------------:|
+| Airfix                   | pre 2007 | pre 2007 |
+| Artin                    | pre 2007 | pre 2007 |
+| Aurora                   | pre 2007 | pre 2007 |
+| Aurora MM                | pre 2007 | pre 2007 |
+| Aurora Ajet              | pre 2007 | pre 2007 |
+| Bigchar-G 20cm           | pre 2007 | pre 2007 |
+| Carrera Exclusiv         | pre 2007 | pre 2007 |
+| Carrera Universal        | pre 2007 | pre 2007 |
+| Carrera Exclusiv PRO-X   | pre 2007 | pre 2007 |
+| Custom Routed            | n/a      | pre 2007 |
+| Custom Routed Metric     | n/a      | pre 2007 |
+| Fleischmann              | pre 2007 | pre 2007 |
+| Granite Archer Racetrack | pre 2007 | pre 2007 |
+| Ninco w/ N-Digital       | ~2017    | 2025     |
+| MaxTrax 4 / 6            | pre 2007 | pre 2007 |
+| Marchon                  | pre 2007 | pre 2007 |
+| Polistil                 | pre 2007 | pre 2007 |
+| Revell / Riggen          | pre 2007 | pre 2007 |
+| SCX / Scalextric         | pre 2007 | pre 2007 |
+| SCX Digital              | pre 2007 | pre 2007 |
+| Scalextric Sport Track + Digital | pre 2007 | pre 2007 |
+| Scalextric Micro         | pre 2007 | pre 2007 |
+| Strombecker 1:32         | pre 2007 | pre 2007 |
+| Strombecker 1:24         | pre 2007 | pre 2007 |
+| Super 1:24               | pre 2007 | pre 2007 |
+| Tomy AFX                 | pre 2007 | pre 2007 |
+| Tyco                     | pre 2007 | pre 2007 |
+| Vario 4                  | pre 2007 | pre 2007 |
+
+\* Last in production.
+
+## Style guide ##
+
+TODO (track paint, picker order, etc.)
 
 ## TODO list ##
 
-- Instead of providing one, fat `Tracker30.df3` file, which may be a challenge to diff and merge (not likely, but, meh), break it up by brand/type and provide a tool for merging them as wanted.  This will have the added benefit of making it easy to then also allow for creating ad-hoc hybrid sets for designing hybrid tracks (e.g. Ninco + Policar).
-
-- I have also considered adding border pieces as their own track def to help track their use better.  (And, not to mention, Tracker 2000 is not flexible enough here to support start/end pieces, half pieces, and so on.)
+- Instead of providing one, fat `Tracker30.df3` file, which may be a challenge to diff and merge (not likely, but, meh), break it up by brand/system/type and provide a tool for merging them as wanted.  This will have the added benefit of making it easy to then also allow for creating ad-hoc hybrid sets for designing hybrid tracks (e.g. Ninco + Policar).  (Will likely need to insert a dummy part for odd-numbered sets to keep the picker pretty.)
 
 #### TOnotDO ####
 
+- I have considered adding border pieces as their own track def to help track their use better.  (Because Tracker is not flexible enough with borders to support start/end pieces, half pieces, and so on.  Not to mention inventory.)  But... this software doesn't support combining different track types--not even as a new track in the same design... even though adapter pieces are common between track types.  Thus, they would have to be an expansion the Ninco set... making it very big... sigh.  Also, again, the lack of support for non-ambidextrous curves will be a confusion point for the user (using/inventorying start/end pieces, also the inside/outside thing).
+
 - Tracker 2000 does not color-code track pieces (an idea that came later in history).  In theory, one could add this feature by adding colored polygons on top of the track shape (like I do for snow and off-road track with Ninco)... but that sounds like maybe more work than it is worth.  But others may try it.  In which case, the tool might be expanded to make it easier to swap color-coded and non-color-coded track defs in and out.
+
+- Changing the red track paint to another shade of red has been considered to keep Tracker from autocoloring it to other lane colors (like it does with lanes 3+, and left/right red/green curve swapping).  But I have not done this thus far because the color picker is very limited in color shades, leaving only dark red and pink as the other red options.  I could enter any red shade via text editor... but then that becomes difficult and mysterious for others to understand what is going on and to duplicate and/or maintain.  Thus, I'm letting this one be and it is what it is until a better color picker arrives (which will be never).
