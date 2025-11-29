@@ -35744,9 +35744,9 @@ Adapter, Ninco to SCX
 # LaneDistance
 9.000000
 # TravelLane1
-22.299999
+20.009300
 # TravelLane2
-22.299999
+20.009300
 # CrossTrack
 0
 # Interface Width1
@@ -35754,7 +35754,7 @@ Adapter, Ninco to SCX
 # Interface Width2
 15.557500
 # Interface Length
-22.299999
+20.000000
 # NO SILKSCREEN
 0
 #
@@ -35774,17 +35774,17 @@ Adapter, SCX to Ninco
 # LaneDistance
 9.000000
 # TravelLane1
-22.299999
+20.009300
 # TravelLane2
-22.299999
+20.009300
 # CrossTrack
 0
 # Interface Width1
-15.557200
+15.557500
 # Interface Width2
 18.000000
 # Interface Length
-22.299999
+20.000000
 # NO SILKSCREEN
 0
 #
