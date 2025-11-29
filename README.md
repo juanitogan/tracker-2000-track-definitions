@@ -33,38 +33,44 @@ The wiki here contains both tips for using Tracker 2000 and a list of known bugs
 
 ## Included Track Systems ##
 
-| Brand | Current as of* | Last updated |
-|-------|:-------------:|:------------:|
-| Airfix                   | pre 2007 | pre 2007 |
-| Artin                    | pre 2007 | pre 2007 |
-| Aurora                   | pre 2007 | pre 2007 |
-| Aurora MM                | pre 2007 | pre 2007 |
-| Aurora Ajet              | pre 2007 | pre 2007 |
-| Bigchar-G 20cm           | pre 2007 | pre 2007 |
-| Carrera Exclusiv         | pre 2007 | pre 2007 |
-| Carrera Universal        | pre 2007 | pre 2007 |
-| Carrera Exclusiv PRO-X   | pre 2007 | pre 2007 |
-| Custom Routed            | n/a      | pre 2007 |
-| Custom Routed Metric     | n/a      | pre 2007 |
-| Fleischmann              | pre 2007 | pre 2007 |
-| Granite Archer Racetrack | pre 2007 | pre 2007 |
-| Ninco w/ N-Digital       | ~2017    | 2025     |
-| MaxTrax 4 / 6            | pre 2007 | pre 2007 |
-| Marchon                  | pre 2007 | pre 2007 |
-| Polistil                 | pre 2007 | pre 2007 |
-| Revell / Riggen          | pre 2007 | pre 2007 |
-| SCX / Scalextric         | pre 2007 | pre 2007 |
-| SCX Digital              | pre 2007 | pre 2007 |
-| Scalextric Sport Track + Digital | pre 2007 | pre 2007 |
-| Scalextric Micro         | pre 2007 | pre 2007 |
-| Strombecker 1:32         | pre 2007 | pre 2007 |
-| Strombecker 1:24         | pre 2007 | pre 2007 |
-| Super 1:24               | pre 2007 | pre 2007 |
-| Tomy AFX                 | pre 2007 | pre 2007 |
-| Tyco                     | pre 2007 | pre 2007 |
-| Vario 4                  | pre 2007 | pre 2007 |
+| Brand | Scale | Current as of* | Last updated |
+|-------|:-----:|:--------------:|:------------:|
+| Airfix                   | 1:32 | pre 2007 | pre 2007 |
+| Artin                    | 1:32 | pre 2007 | pre 2007 |
+| Aurora                   | 1:64 | pre 2007 | pre 2007 |
+| Aurora AFX               | 1:64 | pre 2007 | pre 2007 |
+| Aurora MM                | 1:64 | pre 2007 | pre 2007 |
+| Aurora Ajet              | 1:32 | pre 2007 | pre 2007 |
+| Bit Char-G (micro RC, 0-lane) | 1:64 | pre 2007 | pre 2007 |
+| Carrera Exclusiv         | 1:24 | pre 2007 | pre 2007 |
+| Carrera Universal        | 1:32 | pre 2007 | pre 2007 |
+| Carrera Exclusiv PRO-X   | 1:24 | pre 2007 | pre 2007 |
+| Custom Routed            | 1:24 | n/a      | pre 2007 |
+| Custom Routed Metric     | 1:24 | n/a      | pre 2007 |
+| Fleischmann              | 1:32 | pre 2007 | pre 2007 |
+| Granite Archer Raceways (4-lane) | 1:64 | pre 2007 | pre 2007 |
+| Ninco w/ N-Digital       | 1:32 | ~2017    | 2025     |
+| MaxTrax (4-lane)         | 1:64 | pre 2007 | pre 2007 |
+| MaxTrax (6-lane)         | 1:64 | pre 2007 | pre 2007 |
+| Marchon                  | 1:64 | pre 2007 | pre 2007 |
+| Polistil                 | 1:32 | pre 2007 | pre 2007 |
+| Revell / Riggen          | 1:32 | pre 2007 | pre 2007 |
+| SCX / Scalextric         | 1:32 | pre 2007 | pre 2007 |
+| SCX Digital              | 1:32 | pre 2007 | pre 2007 |
+| Scalextric Sport Track + Digital | 1:32 | pre 2007 | pre 2007 |
+| Scalextric Micro         | 1:64 | pre 2007 | pre 2007 |
+| Strombecker 1:32         | 1:32 | pre 2007 | pre 2007 |
+| Strombecker 1:24         | 1:24 | pre 2007 | pre 2007 |
+| Super                    | 1:24 | pre 2007 | pre 2007 |
+| Tomy AFX                 | 1:64 | pre 2007 | pre 2007 |
+| Tyco                     | 1:64 | pre 2007 | pre 2007 |
+| Vario (4-lane)           | ?    | pre 2007 | pre 2007 |
 
 \* Last in production.
+
+Note that 1:64 scale is commonly referred to as HO scale in the slot-car world, but HO scale is actually 1:87, and 1:64 is S scale.  Go figure.
+
+No train tracks?  Bummer.  Yeah, okay, the software doesn't support railroad junctions and multiple routes easily.  Possible (as seen with digital slot setups) but not the focus.  Tracker is linear editor, remember?  Trains are best with a non-linear editor, or a branching linear editor.  Maybe I'll add my Lego train tracks someday (the only trains I own).  What about [Mini 4WD](https://en.wikipedia.org/wiki/Mini_4WD)?
 
 ## Style guide ##
 
