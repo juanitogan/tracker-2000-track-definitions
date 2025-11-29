@@ -12,6 +12,10 @@ Purely cosmetic changes (such as differences in paint or color/design of power b
 
 <!-- ## [Unreleased] -->
 
+## [2025.2] - 27NOV2025 MJJ
+### Changes
+- Corrected the 10110 Ninco-SCX adapter "chicane" from 22.3cm to 20.0cm and 20.0093cm travel (based on 3-1/16" SCX lane spacing).  (Not the first crazy dimension I've seen like this.)  Also corrected Width 1 from 15.5572 to 15.5575 (6-1/8").
+
 ## [2025.1] - 11SEP2025 MJJ
 ### Changes
 - Added hash marks to all pieces with N-Digital sensor strips to mark where the sensor strips are.  This is to help avoid placing pieces backwards when assembling the track from a b/w outline printout.  Also moved the lane-change lines on 40208 slightly to accommodate the sensor marks (and they are now more accurate for it).
@@ -88,7 +92,8 @@ Hint: To make red/white striping display the best on screen (if you care), alter
 I wonder if I have all the lanes backwards....?
 
 
-[unreleased]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2025.1...HEAD
+[unreleased]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2025.2...HEAD
+[2025.2]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2025.1...v2025.2
 [2025.1]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2024.1...v2025.1
 [2024.1]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v2008.1...v2024.1
 [2008.1]: https://github.com/juanitogan/tracker-2000-track-definitions/compare/v3.0b...v2008.1
