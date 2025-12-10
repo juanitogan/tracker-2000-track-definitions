@@ -33,44 +33,63 @@ The wiki here contains both tips for using Tracker 2000 and a list of known bugs
 
 ## Included Track Systems ##
 
-| Brand | Scale | Current as of* | Last updated |
-|-------|:-----:|:--------------:|:------------:|
-| Airfix                   | 1:32 | pre 2007 | pre 2007 |
-| Artin                    | 1:32 | pre 2007 | pre 2007 |
-| Aurora                   | 1:64 | pre 2007 | pre 2007 |
-| Aurora AFX               | 1:64 | pre 2007 | pre 2007 |
-| Aurora MM                | 1:64 | pre 2007 | pre 2007 |
-| Aurora Ajet              | 1:32 | pre 2007 | pre 2007 |
-| Bit Char-G (micro RC, 0-lane) | 1:64 | pre 2007 | pre 2007 |
-| Carrera Exclusiv         | 1:24 | pre 2007 | pre 2007 |
-| Carrera Universal        | 1:32 | pre 2007 | pre 2007 |
-| Carrera Exclusiv PRO-X   | 1:24 | pre 2007 | pre 2007 |
-| Custom Routed            | 1:24 | n/a      | pre 2007 |
-| Custom Routed Metric     | 1:24 | n/a      | pre 2007 |
-| Fleischmann              | 1:32 | pre 2007 | pre 2007 |
-| Granite Archer Raceways (4-lane) | 1:64 | pre 2007 | pre 2007 |
-| Ninco w/ N-Digital       | 1:32 | ~2017    | 2025     |
-| MaxTrax (4-lane)         | 1:64 | pre 2007 | pre 2007 |
-| MaxTrax (6-lane)         | 1:64 | pre 2007 | pre 2007 |
-| Marchon                  | 1:64 | pre 2007 | pre 2007 |
-| Polistil                 | 1:32 | pre 2007 | pre 2007 |
-| Revell / Riggen          | 1:32 | pre 2007 | pre 2007 |
-| SCX / Scalextric         | 1:32 | pre 2007 | pre 2007 |
-| SCX Digital              | 1:32 | pre 2007 | pre 2007 |
-| Scalextric Sport Track + Digital | 1:32 | pre 2007 | pre 2007 |
-| Scalextric Micro         | 1:64 | pre 2007 | pre 2007 |
-| Strombecker 1:32         | 1:32 | pre 2007 | pre 2007 |
-| Strombecker 1:24         | 1:24 | pre 2007 | pre 2007 |
-| Super                    | 1:24 | pre 2007 | pre 2007 |
-| Tomy AFX                 | 1:64 | pre 2007 | pre 2007 |
-| Tyco                     | 1:64 | pre 2007 | pre 2007 |
-| Vario (4-lane)           | ?    | pre 2007 | pre 2007 |
+### 1:60 to 1:87 Slot Track
 
-\* Last in production.
+| Brand | Years | Last updated |
+|-------|:-----:|:------------:|
+| [Aurora AFX/MM](https://www.slotcarcentral.com/miva55/category/AQT9.html)             | [1971-1983](https://en.wikipedia.org/wiki/Aurora_AFX) | pre 2007 |
+| [Aurora Model Motoring](https://www.slotcarcentral.com/miva55/category/ALJT8.html)    | [1959-1983](https://en.wikipedia.org/wiki/Aurora_Plastics_Corporation#Model_motoring) | pre 2007 |
+| [Granite Archer Raceways](https://bradstracks.fsmra.com/Granite_Archer_Raceways.htm) / [BSTS](https://bradstracks.fsmra.com/bsts.htm) (4-lane) | 1995-TD | pre 2007 |
+| [MaxTrax](https://maxtraxracing.com/) (4-lane)                                        | 2000-TD   | pre 2007 |
+| [MaxTrax](https://maxtraxracing.com/) (6-lane)                                        | 2000-TD   | pre 2007 |
+| [Marchon](https://www.slotcarcentral.com/miva55/category/MMR123.html)                 | c.1990s   | pre 2007 |
+| [Scalextric Micro](https://uk.scalextric.com/about-scalextric#ninetytwenty)           | 1996-TD   | pre 2007 |
+| [Tyco](https://www.slotcarcentral.com/miva55/category/TMTAV.html) / Mattel            | [1963-1993](https://tycocollectors.com/history-of-tyco-toys/) | pre 2007 |
+| [Tomy AFX](https://afxracing.com/product-category/track-products/)                    | [1980-TD](https://afxracing.com/history-of-racemasters/) | pre 2007 |
 
-Note that 1:64 scale is commonly referred to as HO scale in the slot-car world, but HO scale is actually 1:87, and 1:64 is S scale.  Go figure.
+### 1:43 Slot Track
 
-No train tracks?  Bummer.  Yeah, okay, the software doesn't support railroad junctions and multiple routes easily.  Possible (as seen with digital slot setups) but not the focus.  Tracker is linear editor, remember?  Trains are best with a non-linear editor, or a branching linear editor.  Maybe I'll add my Lego train tracks someday (the only trains I own).  What about [Mini 4WD](https://en.wikipedia.org/wiki/Mini_4WD)?
+| Brand | Years | Last updated |
+|-------|:-----:|:------------:|
+
+### 1:32 Slot Track
+
+| Brand | Years | Last updated |
+|-------|:-----:|:------------:|
+| [Airfix](https://cartrackset.com/category/airfix/)                                    | [1963-?](https://en.wikipedia.org/wiki/Airfix) | pre 2007 |
+| [Artin](https://cartrackset.com/category/artin/)                                      | [1965-2008](https://web.archive.org/web/20081014170552/http://artinslotcars.com/) | pre 2007 |
+| Aurora A-Jet                                                                          | [1965-1971](https://www.fabtintoys.com/aurora/) | pre 2007 |
+| Carrera Universal                                                                     | [1963-1984](https://carrera-toys.com/en/pages/landing-page-about) | pre 2007 |
+| [Fleischmann](https://smallmart.nl/artikelen/retro-speelgoed/30-fleischmann-slotcars) | 1967-1990 | pre 2007 |
+| [Ninco](https://web.archive.org/web/20160310041400/http://www.ninco.com/en/2051-circuits.html) + [N-Digital](https://web.archive.org/web/20070330185833/http://docs.ninco.com:80/nincoes/catalogo_ndigital.pdf) | 1997-2016 | 2025     |
+| [Polistil](https://www.maycheonggroup.com/en/brand/polistil)                          | [197x-1993](https://en.wikipedia.org/wiki/Polistil) | pre 2007 |
+| Revell / Riggen                                                                       | [c.1960s](https://en.wikipedia.org/wiki/Revell) | pre 2007 |
+| SCX / [Scalextric](https://uk.scalextric.com/catalogue/track)                         | 1963-2001 | pre 2007 |
+| [SCX Digital](https://uk.scalextric.com/about-scalextric#twentyten)                   | 2004-TD   | pre 2007 |
+| [Scalextric Sport](https://uk.scalextric.com/about-scalextric#twentyten) + Digital    | 2000-TD   | pre 2007 |
+| [Strombecker](https://cartrackset.com/category/strombecker/) 1:32                     | [1961-196x](https://www.fundinguniverse.com/company-histories/strombecker-corporation-history/) | pre 2007 |
+
+### 1:24 Slot Track
+
+| Brand | Years | Last updated |
+|-------|:-----:|:------------:|
+| Carrera 124 / Exclusiv / [Evolution](https://carrera-toys.com/collections/evolution)  | 1967-TD   | pre 2007 |
+| Carrera Evolution Pro-X / [Digital 124](https://carrera-toys.com/collections/digital-124) & 132 | 2004-TD   | pre 2007 |
+| Custom Routed                                                                         | n/a       | pre 2007 |
+| Custom Routed Metric                                                                  | n/a       | pre 2007 |
+| Strombecker 1:24                                                                      | c.1960s   | pre 2007 |
+| Super 1:24                                                                            | ? no idea | pre 2007 |
+| [Vario Routed](https://slotadictos.mforos.com/26757/13019408-pista-madera-concept-vario-system/) (?) (4-lane) | [???](https://www.criccrac.com/acerca-circuitos-club-criccrac) | pre 2007 |
+
+### Other Track
+
+| Brand | Type | Years | Last updated |
+|-------|:----:|:-----:|:------------:|
+| [Tomy Bit Char-G](https://web.archive.org/web/20031009013848/http://www.tomy.co.jp:80/bit_charg/) | 1:64 micro RC | 2001-2003 | pre 2007 |
+
+Note that 1:64 scale is commonly referred to as HO scale in the slot-car world, but HO scale is actually 1:87, and 1:64 is S scale.  Go figure.  In reality, for example, Hot-Wheels-sized cars are none of the above.  Instead, they are often scaled to a preset axle width; which then tends towards 1:64 for sports cars and perhaps 1:87 for, say, a fire truck.
+
+No train tracks?  Bummer.  Yeah, okay, the software doesn't support railroad junctions and multiple routes easily.  Possible (as seen with digital slot setups) but not the focus.  Tracker is linear editor, remember?  Trains are best with a non-linear editor, or a branching linear editor.  Maybe I'll add my Lego train tracks someday (the only trains I own).  What about [Mini 4WD](https://en.wikipedia.org/wiki/Mini_4WD)?  And [Anki OVERDRIVE](https://anki.bot/pages/meet-overdrive), SilverLit X-Trek Pro, Carrera Hybrid, etc.?
 
 ## Style guide ##
 
