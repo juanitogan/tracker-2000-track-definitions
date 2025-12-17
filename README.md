@@ -1,10 +1,10 @@
-# Tracker 2000 Track Definitions (parts file)
+# Tracker 2000 Track Definitions (the "parts file")
 
 <img width="1239" height="515" alt="Tracker 2000 track definitions editor screenshot" src="https://github.com/user-attachments/assets/edba08f6-301a-4387-8582-8902c1b7d132" />
 
 **NOTICE:** To be clear, **this is not the Tracker 2000 app.**
 
-This repo is only for keeping [Tracker 2000](https://web.archive.org/web/20061230041821/http://www.slotrace.com/tracker/info.html) alive by providing updated track-definition files (the `Tracker30.df3` file).
+This repo is an attempt to keep [Tracker 2000](https://web.archive.org/web/20061230041821/http://www.slotrace.com/tracker/info.html) alive by providing updated track-definition files (the `Tracker30.df3` file).
 
 The Tracker 2000 app was [abandoned in January 2007 ](https://web.archive.org/web/20070105133305/http://slotrace.com/)by its creator, Edwin of Slotrace.com.  You can download it from archive.org (the demo version _is_ the full version, minus the unlock code):
 
@@ -14,11 +14,11 @@ You can find an unlock code on the internet (this repo will not provide any unlo
 
 ### Why?
 
-When I first got my Ninco N-Digital track, Tracker 2000 was the best of the track designers at the time for Ninco... and still is the best among the free/abandoned choices -- primarily because **it is a linear editor rather than a 2D editor** ("D'oh!" say the others).  My club, Giant John Slot Car Racing (and board gaming, and food club), still uses Tracker 2000 for all our design (we take turns designing a new track every 2-3 months).  I have updated the track defs over the years to include all the Ninco 1:32 pieces I know of, including N-Digital (even though Ninco 1:32 is currently a thing of the past).
+When I first got my Ninco N-Digital track, Tracker 2000 was the best of the track designers at the time for Ninco... and still is the best among the free/abandoned choices -- primarily because **it is a linear editor rather than a 2D editor.**  ("D'oh!" say the others.)  My club, Giant John Slot Car Racing (and board gaming, and food club), still uses Tracker 2000 for all our design (we take turns designing a new track every 2-3 months).  I have updated the track defs over the years to include all the Ninco 1:32 pieces I know of, including N-Digital (even though Ninco 1:32 is currently a thing of the past).
 
 It is time to share that work with everyone else, in perhaps a misguided effort, to help keep Ninco track alive.
 
-Yes, Tracker 2000 is a severely outdated app from the Windows XP era.  But it still runs fine on modern Windows (other than the handful of poor UI decisions it was first built with--which take a tiny bit of getting used to).  It is unfortunate the source code was not released as I would be happy to fix many of those quirks.
+Yes, Tracker 2000 is a severely outdated app from the Windows XP era.  It still runs fine, however, on modern Windows.  Yes, it comes with a handful of poor UI decisions (even for the XP era) which take a small bit of getting used to.  It is unfortunate the source code was not released as I would be happy to fix many of those quirks.
 
 <img width="1390" height="512" alt="Tracker 2000 example Ninco N-Digital track layout (GJC Nov2024)" src="https://github.com/user-attachments/assets/e1da049a-b082-4f19-a4de-dea4ac8e1904" />
 
@@ -28,7 +28,7 @@ The wiki here contains both tips for using Tracker 2000 and a list of known bugs
 
 [**➡️ Jump to the wiki.**](https://github.com/juanitogan/tracker-2000-track-definitions/wiki)
 
-‼️ For Ninco N-Digital users, be sure to check out the wiki on it.  It reveals all the gory details on why they system may be driving you mad--and what you can and cannot do about it.
+‼️ For Ninco N-Digital users, be sure to check out the wiki on it.  It reveals all the gory details on why the system may be driving you mad--and what you can and cannot do about it.
 
 ### [➡️ N-Digital Communications](https://github.com/juanitogan/tracker-2000-track-definitions/wiki/Ninco-N%E2%80%90Digital-Communications)
 
