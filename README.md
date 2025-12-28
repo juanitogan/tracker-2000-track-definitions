@@ -66,7 +66,7 @@ The wiki here contains both tips for using Tracker 2000 and a list of known bugs
 | [Artin](https://cartrackset.com/category/artin/)                                      | [1965-2008](https://web.archive.org/web/20081014170552/http://artinslotcars.com/) | pre 2007 |
 | Aurora A-Jet                                                                          | [1965-1971](https://www.fabtintoys.com/aurora/) | pre 2007 |
 | Carrera "Universal"                                                                   | [1963-1984](https://carrera-toys.com/en/pages/landing-page-about) | pre 2007 |
-| [Fleischmann](https://smallmart.nl/artikelen/retro-speelgoed/30-fleischmann-slotcars) | 1967-1990 | pre 2007 |
+| [Fleischmann](https://slotracer.online/library/fleischmann/index.php)                 | [1967-1990](https://smallmart.nl/artikelen/retro-speelgoed/30-fleischmann-slotcars) | pre 2007 |
 | [Ninco](https://web.archive.org/web/20160310041400/http://www.ninco.com/en/2051-circuits.html) + [N-Digital](https://web.archive.org/web/20070330185833/http://docs.ninco.com:80/nincoes/catalogo_ndigital.pdf) | [1997-2016](https://es.wikipedia.org/wiki/Ninco) | 2025     |
 | [Polistil](https://www.maycheonggroup.com/en/brand/polistil)                          | [197x-1993](https://en.wikipedia.org/wiki/Polistil) | pre 2007 |
 | Revell / Riggen                                                                       | [c.1960s](https://en.wikipedia.org/wiki/Revell) | pre 2007 |
