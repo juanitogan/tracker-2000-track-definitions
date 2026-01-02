@@ -96,7 +96,7 @@ The wiki here contains both tips for using Tracker 2000 and a list of known bugs
 | Carrera Evolution Pro-X / [Digital 124](https://carrera-toys.com/collections/digital-124) & 132 | [2004-TD](https://web.archive.org/web/20040624164718/http://www.carrera-toys.de/index.php?id=532&backPID=532&begin_at=5&tt_news=1&L=0) | pre 2007 |
 | Custom Routed                                                                         | n/a       | pre 2007 |
 | Custom Routed Metric                                                                  | n/a       | pre 2007 |
-| [Scalextric Super 124](https://slotracer.online/library/scalextric/scalextric-catalogue-1970.php) | [1968-1970](https://slotracer.online/library/scalextric/scalextric-catalogue-1968.php) | 2026*    |
+| [Scalextric Super 124](https://slotracer.online/library/scalextric/scalextric-catalogue-1970.php) (3-lane) | [1968-1970](https://slotracer.online/library/scalextric/scalextric-catalogue-1968.php) | 2026*    |
 | Strombecker 1:24                                                                      | c.1960s   | pre 2007 |
 | Vario Routed (4-lane) ([Concept Vario System](https://slotadictos.mforos.com/26757/13019408-pista-madera-concept-vario-system/)?) | [c.2000s?](https://www.criccrac.com/acerca-circuitos-club-criccrac) | pre 2007 |
 
