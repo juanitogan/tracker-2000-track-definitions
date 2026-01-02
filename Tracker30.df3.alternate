@@ -1,0 +1,1465 @@
+# TRACKER Definition File
+#
+# Number of BRANDS
+3
+#
+# BRAND DEF
+BITCHARG
+BitChar-G 20 cm
+# Number of lanes
+2
+# METRIC?
+1
+# PartSelector zoom factor
+1.500000
+# Default Width
+20.000000
+# Number of parts
+10
+#
+#
+# PART DEF
+BG001
+Double Straight
+# Type
+2
+# InnerBorderStep
+8
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+8
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+20.000000
+# Straight Length
+40.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+BG002
+Straight
+# Type
+2
+# InnerBorderStep
+4
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+4
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+20.000000
+# Straight Length
+20.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+BG003
+Half Straight
+# Type
+2
+# InnerBorderStep
+2
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+2
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.000000
+# TravelLane1
+10.000000
+# TravelLane2
+10.000000
+# CrossTrack
+0
+# Straight Width
+20.000000
+# Straight Length
+10.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+BG101
+Standard 90" Curve
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+6
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.000000
+# TravelLane1
+21.991148
+# TravelLane2
+21.991148
+# CrossTrack
+0
+# Curve Angle
+90.000000
+# Curve Width
+20.000000
+# Curve InnerRadius
+4.000000
+# Curve OuterRadius
+24.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+BG102
+Standard 45" Curve
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+3
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.000000
+# TravelLane1
+10.995574
+# TravelLane2
+10.995574
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+20.000000
+# Curve InnerRadius
+4.000000
+# Curve OuterRadius
+24.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+BG103
+Wide 90" Curve
+# Type
+1
+# InnerBorderStep
+4
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+8
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.000000
+# TravelLane1
+28.274334
+# TravelLane2
+28.274334
+# CrossTrack
+0
+# Curve Angle
+90.000000
+# Curve Width
+20.000000
+# Curve InnerRadius
+8.000000
+# Curve OuterRadius
+28.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+BG104
+Wide 45" Curve
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+4
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.000000
+# TravelLane1
+14.137167
+# TravelLane2
+14.137167
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+20.000000
+# Curve InnerRadius
+8.000000
+# Curve OuterRadius
+28.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+BG201
+Starting Straight
+# Type
+2
+# InnerBorderStep
+4
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+4
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+20.000000
+# Straight Length
+20.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+4
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+2.000000
+# y
+9.000000
+# x
+4.000000
+# y
+11.000000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+7.000000
+# y
+9.000000
+# x
+9.000000
+# y
+11.000000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+12.000000
+# y
+9.000000
+# x
+14.000000
+# y
+11.000000
+# Shape
+7
+# Color
+16777215
+# Penwidth
+1
+# Num of points
+2
+# x
+17.000000
+# y
+9.000000
+# x
+19.000000
+# y
+11.000000
+#
+# PART DEF
+BG202
+Bridge Complete
+# Type
+2
+# InnerBorderStep
+0
+# InnerBorderWidth
+0.000000
+# OuterBorderStep
+0
+# OuterBorderWidth
+0.000000
+# LaneDistance
+0.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+20.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+2
+# Shape
+3
+# Color
+4227327
+# Penwidth
+1
+# Num of points
+5
+# x
+0.000000
+# y
+0.000000
+# x
+0.000000
+# y
+40.000000
+# x
+-2.000000
+# y
+40.000000
+# x
+-2.000000
+# y
+0.000000
+# x
+0.000000
+# y
+0.000000
+# Shape
+3
+# Color
+4227327
+# Penwidth
+1
+# Num of points
+5
+# x
+18.000000
+# y
+0.000000
+# x
+18.000000
+# y
+40.000000
+# x
+20.000000
+# y
+40.000000
+# x
+20.000000
+# y
+0.000000
+# x
+18.000000
+# y
+0.000000
+#
+# PART DEF
+BG203
+Straight Narrow
+# Type
+2
+# InnerBorderStep
+8
+# InnerBorderWidth
+5.000000
+# OuterBorderStep
+8
+# OuterBorderWidth
+5.000000
+# LaneDistance
+0.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+20.000000
+# Straight Length
+40.000000
+# SILKSCREEN
+1
+# FREEHAND
+#
+# Number of SHAPES
+2
+# Shape
+3
+# Color
+10092543
+# Penwidth
+1
+# Num of points
+4
+# x
+0.000000
+# y
+5.000000
+# x
+5.000000
+# y
+10.000000
+# x
+5.000000
+# y
+30.000000
+# x
+0.000000
+# y
+35.000000
+# Shape
+3
+# Color
+10092543
+# Penwidth
+1
+# Num of points
+4
+# x
+20.000000
+# y
+5.000000
+# x
+15.000000
+# y
+10.000000
+# x
+15.000000
+# y
+30.000000
+# x
+20.000000
+# y
+35.000000
+#
+# BRAND DEF
+ROUTED
+Custom Routed Track
+# Number of lanes
+4
+# METRIC?
+1
+# PartSelector zoom factor
+1.000000
+# Default Width
+30.480000
+# Number of parts
+15
+#
+#
+# PART DEF
+st48
+48" Straight
+# Type
+2
+# InnerBorderStep
+24
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+24
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.240000
+# TravelLane1
+121.919998
+# TravelLane2
+121.919998
+# CrossTrack
+0
+# Straight Width
+30.480000
+# Straight Length
+121.919998
+# NO SILKSCREEN
+0
+#
+# PART DEF
+st36
+36" Straight
+# Type
+2
+# InnerBorderStep
+16
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+16
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.240000
+# TravelLane1
+91.440002
+# TravelLane2
+91.440002
+# CrossTrack
+0
+# Straight Width
+30.480000
+# Straight Length
+91.440002
+# NO SILKSCREEN
+0
+#
+# PART DEF
+st24
+24" Straight
+# Type
+2
+# InnerBorderStep
+10
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+10
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.240000
+# TravelLane1
+60.959999
+# TravelLane2
+60.959999
+# CrossTrack
+0
+# Straight Width
+30.480000
+# Straight Length
+60.959999
+# NO SILKSCREEN
+0
+#
+# PART DEF
+st12
+12" Straight
+# Type
+2
+# InnerBorderStep
+6
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+6
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.240000
+# TravelLane1
+30.480000
+# TravelLane2
+30.480000
+# CrossTrack
+0
+# Straight Width
+30.480000
+# Straight Length
+30.480000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+st6
+6" Straight
+# Type
+2
+# InnerBorderStep
+4
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+4
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.240000
+# TravelLane1
+15.240000
+# TravelLane2
+15.240000
+# CrossTrack
+0
+# Straight Width
+30.480000
+# Straight Length
+15.240000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+st3
+3" Straight
+# Type
+2
+# InnerBorderStep
+2
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+2
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.240000
+# TravelLane1
+7.620000
+# TravelLane2
+7.620000
+# CrossTrack
+0
+# Straight Width
+30.480000
+# Straight Length
+7.620000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+c3090
+30" 90 degree
+# Type
+1
+# InnerBorderStep
+12
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+18
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.621000
+# TravelLane1
+83.487038
+# TravelLane2
+108.024452
+# CrossTrack
+0
+# Curve Angle
+90.000000
+# Curve Width
+30.480000
+# Curve InnerRadius
+45.719997
+# Curve OuterRadius
+76.199997
+# NO SILKSCREEN
+0
+#
+# PART DEF
+c3045
+30" 45 degree
+# Type
+1
+# InnerBorderStep
+6
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+10
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.621000
+# TravelLane1
+41.743519
+# TravelLane2
+54.012226
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+30.480000
+# Curve InnerRadius
+45.719997
+# Curve OuterRadius
+76.199997
+# NO SILKSCREEN
+0
+#
+# PART DEF
+c30225
+30" 22.5 degree
+# Type
+1
+# InnerBorderStep
+4
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+6
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.621000
+# TravelLane1
+20.871759
+# TravelLane2
+27.006113
+# CrossTrack
+0
+# Curve Angle
+22.500000
+# Curve Width
+30.480000
+# Curve InnerRadius
+45.719997
+# Curve OuterRadius
+76.199997
+# NO SILKSCREEN
+0
+#
+# PART DEF
+c2490
+24" 90 degree
+# Type
+1
+# InnerBorderStep
+8
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+16
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.621000
+# TravelLane1
+59.548103
+# TravelLane2
+84.085510
+# CrossTrack
+0
+# Curve Angle
+90.000000
+# Curve Width
+30.480000
+# Curve InnerRadius
+30.480000
+# Curve OuterRadius
+60.959999
+# NO SILKSCREEN
+0
+#
+# PART DEF
+c2445
+24" 45 degree
+# Type
+1
+# InnerBorderStep
+4
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+8
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.621000
+# TravelLane1
+29.774052
+# TravelLane2
+42.042755
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+30.480000
+# Curve InnerRadius
+30.480000
+# Curve OuterRadius
+60.959999
+# NO SILKSCREEN
+0
+#
+# PART DEF
+c24225
+24" 22.5 degree
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+4
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.621000
+# TravelLane1
+14.887026
+# TravelLane2
+21.021378
+# CrossTrack
+0
+# Curve Angle
+22.500000
+# Curve Width
+30.480000
+# Curve InnerRadius
+30.480000
+# Curve OuterRadius
+60.959999
+# NO SILKSCREEN
+0
+#
+# PART DEF
+c1890
+18" 90 degree
+# Type
+1
+# InnerBorderStep
+4
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+12
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.621000
+# TravelLane1
+35.609169
+# TravelLane2
+60.146576
+# CrossTrack
+0
+# Curve Angle
+90.000000
+# Curve Width
+30.480000
+# Curve InnerRadius
+15.240002
+# Curve OuterRadius
+45.720001
+# NO SILKSCREEN
+0
+#
+# PART DEF
+c1845
+18" 45 degree
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+6
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.621000
+# TravelLane1
+17.804585
+# TravelLane2
+30.073288
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+30.480000
+# Curve InnerRadius
+15.240002
+# Curve OuterRadius
+45.720001
+# NO SILKSCREEN
+0
+#
+# PART DEF
+c18225
+18" 22.5 degree
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+7.620000
+# OuterBorderStep
+4
+# OuterBorderWidth
+7.620000
+# LaneDistance
+15.621000
+# TravelLane1
+8.902300
+# TravelLane2
+15.036600
+# CrossTrack
+0
+# Curve Angle
+22.500000
+# Curve Width
+30.480000
+# Curve InnerRadius
+15.240002
+# Curve OuterRadius
+45.720001
+# NO SILKSCREEN
+0
+#
+# BRAND DEF
+ROUTEDMETRIC
+Custom Routed Track Metric
+# Number of lanes
+4
+# METRIC?
+1
+# PartSelector zoom factor
+1.000000
+# Default Width
+30.000000
+# Number of parts
+16
+#
+#
+# PART DEF
+mst120
+120cm Straight
+# Type
+2
+# InnerBorderStep
+18
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+18
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+120.000000
+# TravelLane2
+120.000000
+# CrossTrack
+0
+# Straight Width
+30.000000
+# Straight Length
+120.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mst100
+100cm Straight
+# Type
+2
+# InnerBorderStep
+16
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+16
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+100.000000
+# TravelLane2
+100.000000
+# CrossTrack
+0
+# Straight Width
+30.000000
+# Straight Length
+100.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mst80
+80cm Straight
+# Type
+2
+# InnerBorderStep
+12
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+12
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+80.000000
+# TravelLane2
+80.000000
+# CrossTrack
+0
+# Straight Width
+30.000000
+# Straight Length
+80.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mst40
+40cm Straight
+# Type
+2
+# InnerBorderStep
+6
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+6
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+40.000000
+# TravelLane2
+40.000000
+# CrossTrack
+0
+# Straight Width
+30.000000
+# Straight Length
+40.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mst20
+20cm Straight
+# Type
+2
+# InnerBorderStep
+2
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+2
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+20.000000
+# TravelLane2
+20.000000
+# CrossTrack
+0
+# Straight Width
+30.000000
+# Straight Length
+20.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mst10
+10cm Straight
+# Type
+2
+# InnerBorderStep
+2
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+2
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+10.000000
+# TravelLane2
+10.000000
+# CrossTrack
+0
+# Straight Width
+30.000000
+# Straight Length
+10.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mst5
+5cm Straight
+# Type
+2
+# InnerBorderStep
+2
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+2
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+5.000000
+# TravelLane2
+5.000000
+# CrossTrack
+0
+# Straight Width
+30.000000
+# Straight Length
+5.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mc3090
+80cm 90 degree
+# Type
+1
+# InnerBorderStep
+12
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+18
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+90.320786
+# TravelLane2
+113.882736
+# CrossTrack
+0
+# Curve Angle
+90.000000
+# Curve Width
+30.000000
+# Curve InnerRadius
+50.000000
+# Curve OuterRadius
+80.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mc3045
+80cm 45 degree
+# Type
+1
+# InnerBorderStep
+6
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+10
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+45.160393
+# TravelLane2
+56.941368
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+30.000000
+# Curve InnerRadius
+50.000000
+# Curve OuterRadius
+80.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mc30225
+80cm 22.5 degree
+# Type
+1
+# InnerBorderStep
+4
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+6
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+22.580196
+# TravelLane2
+28.470684
+# CrossTrack
+0
+# Curve Angle
+22.500000
+# Curve Width
+30.000000
+# Curve InnerRadius
+50.000000
+# Curve OuterRadius
+80.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mc2490
+65cm 90 degree
+# Type
+1
+# InnerBorderStep
+8
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+16
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+66.758842
+# TravelLane2
+90.320786
+# CrossTrack
+0
+# Curve Angle
+90.000000
+# Curve Width
+30.000000
+# Curve InnerRadius
+35.000000
+# Curve OuterRadius
+65.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mc2445
+65cm 45 degree
+# Type
+1
+# InnerBorderStep
+4
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+8
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+33.379421
+# TravelLane2
+45.160393
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+30.000000
+# Curve InnerRadius
+35.000000
+# Curve OuterRadius
+65.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mc24225
+65cm 22.5 degree
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+4
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+16.689711
+# TravelLane2
+22.580196
+# CrossTrack
+0
+# Curve Angle
+22.500000
+# Curve Width
+30.000000
+# Curve InnerRadius
+35.000000
+# Curve OuterRadius
+65.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mc1890
+50cm 90 degree
+# Type
+1
+# InnerBorderStep
+4
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+12
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+43.196899
+# TravelLane2
+66.758842
+# CrossTrack
+0
+# Curve Angle
+90.000000
+# Curve Width
+30.000000
+# Curve InnerRadius
+20.000000
+# Curve OuterRadius
+50.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mc1845
+50cm 45 degree
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+6
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+21.598450
+# TravelLane2
+33.379421
+# CrossTrack
+0
+# Curve Angle
+45.000000
+# Curve Width
+30.000000
+# Curve InnerRadius
+20.000000
+# Curve OuterRadius
+50.000000
+# NO SILKSCREEN
+0
+#
+# PART DEF
+mc18225
+50cm 22.5 degree
+# Type
+1
+# InnerBorderStep
+2
+# InnerBorderWidth
+8.000000
+# OuterBorderStep
+4
+# OuterBorderWidth
+8.000000
+# LaneDistance
+15.000000
+# TravelLane1
+10.799225
+# TravelLane2
+16.689711
+# CrossTrack
+0
+# Curve Angle
+22.500000
+# Curve Width
+30.000000
+# Curve InnerRadius
+20.000000
+# Curve OuterRadius
+50.000000
+# NO SILKSCREEN
+0
