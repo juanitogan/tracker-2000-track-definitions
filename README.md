@@ -83,8 +83,8 @@ The wiki here contains both tips for using Tracker 2000 and a list of known bugs
 
 | Brand 1 | Brand 2 | Brand 3 | Last updated |
 |---------|---------|---------|:------------:|
-| Ninco + N-Digital | Scalextric / SCX           |         | pre 2007 |
-| Policar           | Fleischmann                |         | 2026     |
+| Ninco + N-Digital | Scalextric / SCX           |         | 2026, pre 2007 |
+| Policar           | Fleischmann                |         | 2026, pre 2007 |
 | Policar           | Ninco + N-Digital          |         | 2026     |
 | Scalextric / SCX  | Scalextric Sport + Digital |         | pre 2007 |
 
@@ -114,11 +114,33 @@ No train tracks?  Bummer.  Yeah, okay, the software doesn't support railroad jun
 
 ## Style guide
 
-TODO (track paint, picker order, etc.)
+### Track paint and other cosmetic changes
+
+Purely cosmetic changes (such as differences in paint or color/design of power base) does not warrant a new part.  This is not a wiki of historic part variations.  Exception: If the manufacturer designates a new part number for something, then it _should_ also be included as a new part here.
+
+For example, the Ninco 10114 Starting Grid is identical to the 10103 Half Straight, except that it also has starting grid paint (which one could fairly argue provides a functional difference).  Thus, because the Starting Grid has its own part number, it is added here as a separate piece.  Yet, on the other hand, there are two different versions of the 10114 Starting Grid -- the older one has thinner paint lines and less staggered grid marks -- the newer one was introduced circa Ninco's N-Digital line.  These two versions should not be entered as separate parts.
+
+My personal preference is to update the paint to the latest version, unless it is either a rare version (and possibly inventoried separately), or is only a minor change that might look worse on screen.  For example, Ninco changed their Lane Changer paint from separated-red-white silkscreening to red-on-top-of-white silkscreening.  In this app, the older way looks better on screen -- especially when you alternate the draw order of the red/white striping (see the Ninco 10111 Crossover \[that I have yet to update\] for how muddy it can look when you do not alternate the red and white Z order).
+
+### Picker order (loose guide)
+
+1. Place the most common piece first.  This is usually the longest straight.  Follow that with the other ordinary straights in decreasing length.
+2. Next come the ordinary corners, largest to smallest degrees, tightest to widest radii.
+3. Banked corners.
+4. Powerbase and other common specialty parts such as crossovers.  If you need to move one of these parts to up with the straights, such as the crossover, to save space and/or help balance the picker, do so.
+5. Digital-related parts.
+6. Rare specialty parts such as chicanes, corner crossovers, intersections, etc.
+7. Other colors and types of track such as snow and offroad.
+8. Single-lane track.
+9. Adapters to other track systems are always last.
+
+### Hybrid sets
+
+For predefined hybrid sets (T2K has tools for the user to make their own), the system that makes the adapter to the other system comes first (this is usually the newer system) in both name and picker order.  (This will be moot once a tool is made for the user to easily make their own parts files and hybrids -- as predefined hybrids will no longer exist \[likely\].)
 
 ## TODO list
 
-- Instead of providing one, fat `Tracker30.df3` file, which may be a challenge to diff and merge (not likely, but, meh), break it up by brand/system/type and provide a tool for merging them as wanted.  This will have the added benefit of making it easy to then also allow for creating ad-hoc hybrid sets for designing hybrid tracks (e.g. Ninco + Policar).  (Will likely need to insert a dummy part for odd-numbered sets to keep the picker pretty.)
+- Instead of providing one, fat `Tracker30.df3` file, which may be a challenge to diff and merge (not likely, but, meh), break it up by brand/system/type and provide a tool for merging them as wanted.  This will have the added benefit of making it easy to then also allow for creating ad-hoc hybrid sets for designing hybrid tracks (e.g. Ninco + Policar).  (Will likely need to insert a dummy part for sets with an odd number of parts after the last curve part, to keep the picker pretty.)
 
 #### TOnotDO
 
