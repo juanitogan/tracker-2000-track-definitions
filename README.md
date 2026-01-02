@@ -36,8 +36,11 @@ The wiki here contains both tips for using Tracker 2000 and a list of known bugs
 
 - Backup/rename your current `Tracker30.df3` file in your Tracker 2000 folder.
 - Download one of the `Tracker30.df3` files from this repo and copy it to your Tracker 2000 folder.
+- Note that the Custom Routed and Bit Char-G systems have been moved to a file named `Tracker30.df3.alternate` to make room for more system defintions in the first file (limited to 32 systems).  If you want to use these systems, make a copy of this alternate file and rename it to `Tracker30.df3` (first backing up your original `Tracker30.df3` file of course).
 
 ## Included Track Systems
+
+<!-- Note to self: consider making a wiki, however small, for each brand [not type] and setting all links here to the wiki -->
 
 ### 1:60 to 1:87 Slot Track
 <!-- Ideally, the Brand link points to latest/last track catalog (or parent page), and the Years link is a reference to track production history. -->
@@ -62,12 +65,13 @@ The wiki here contains both tips for using Tracker 2000 and a list of known bugs
 
 | Brand | Years | Last updated |
 |-------|:-----:|:------------:|
-| [Airfix](https://cartrackset.com/category/airfix/)                                    | [1963-?](https://en.wikipedia.org/wiki/Airfix) | pre 2007 |
+| [Airfix](https://cartrackset.com/category/airfix/)                                    | [1963-1981](https://en.wikipedia.org/wiki/Airfix) | pre 2007 |
 | [Artin](https://cartrackset.com/category/artin/)                                      | [1965-2008](https://web.archive.org/web/20081014170552/http://artinslotcars.com/) | pre 2007 |
 | Aurora A-Jet                                                                          | [1965-1971](https://www.fabtintoys.com/aurora/) | pre 2007 |
 | Carrera "Universal"                                                                   | [1963-1984](https://carrera-toys.com/en/pages/landing-page-about) | pre 2007 |
 | [Fleischmann](https://slotracer.online/library/fleischmann/index.php)                 | [1967-1990](https://smallmart.nl/artikelen/retro-speelgoed/30-fleischmann-slotcars) | pre 2007 |
-| [Ninco](https://web.archive.org/web/20160310041400/http://www.ninco.com/en/2051-circuits.html) + [N-Digital](https://web.archive.org/web/20070330185833/http://docs.ninco.com:80/nincoes/catalogo_ndigital.pdf) | [1997-2016](https://es.wikipedia.org/wiki/Ninco) | 2025     |
+| [Ninco](https://web.archive.org/web/20160310041400/http://www.ninco.com/en/2051-circuits.html) + [N-Digital](https://web.archive.org/web/20070330185833/http://docs.ninco.com:80/nincoes/catalogo_ndigital.pdf) | [1997-2016](https://es.wikipedia.org/wiki/Ninco) | 2026     |
+| [Policar (2017)](https://www.policar.it/policar-track/) | [2017-TD](http://www.slotraceshop.nz/ThePolicarTrackSystem.pdf) | 2026     |
 | [Polistil](https://www.maycheonggroup.com/en/brand/polistil)                          | [197x-1993](https://en.wikipedia.org/wiki/Polistil) | pre 2007 |
 | Revell / Riggen                                                                       | [c.1960s](https://en.wikipedia.org/wiki/Revell) | pre 2007 |
 | Scalextric "Classic" / SCX "Black"                                                    | [1963-2001](https://uk.scalextric.com/about-scalextric#sixtyseventy) | pre 2007 |
@@ -79,8 +83,10 @@ The wiki here contains both tips for using Tracker 2000 and a list of known bugs
 
 | Brand 1 | Brand 2 | Brand 3 | Last updated |
 |---------|---------|---------|:------------:|
-| Scalextric / SCX | Ninco (analog)             |         | pre 2007 |
-| Scalextric / SCX | Scalextric Sport + Digital |         | pre 2007 |
+| Ninco + N-Digital | Scalextric / SCX           |         | pre 2007 |
+| Policar           | Fleischmann                |         | 2026     |
+| Policar           | Ninco + N-Digital          |         | 2026     |
+| Scalextric / SCX  | Scalextric Sport + Digital |         | pre 2007 |
 
 ### 1:24 Slot Track
 
@@ -90,9 +96,11 @@ The wiki here contains both tips for using Tracker 2000 and a list of known bugs
 | Carrera Evolution Pro-X / [Digital 124](https://carrera-toys.com/collections/digital-124) & 132 | [2004-TD](https://web.archive.org/web/20040624164718/http://www.carrera-toys.de/index.php?id=532&backPID=532&begin_at=5&tt_news=1&L=0) | pre 2007 |
 | Custom Routed                                                                         | n/a       | pre 2007 |
 | Custom Routed Metric                                                                  | n/a       | pre 2007 |
+| [Scalextric Super 124](https://slotracer.online/library/scalextric/scalextric-catalogue-1970.php) | [1968-1970](https://slotracer.online/library/scalextric/scalextric-catalogue-1968.php) | 2026*    |
 | Strombecker 1:24                                                                      | c.1960s   | pre 2007 |
-| Super 1:24                                                                            | ? no idea | pre 2007 |
 | Vario Routed (4-lane) ([Concept Vario System](https://slotadictos.mforos.com/26757/13019408-pista-madera-concept-vario-system/)?) | [c.2000s?](https://www.criccrac.com/acerca-circuitos-club-criccrac) | pre 2007 |
+
+\* Updated but still missing parts.
 
 ### Other Track
 
@@ -116,7 +124,7 @@ TODO (track paint, picker order, etc.)
 
 - I have considered adding border pieces as their own track def to help track their use better.  (Because Tracker is not flexible enough with borders to support start/end pieces, half pieces, and so on.  Not to mention inventory.)  But... this software doesn't support combining different track types--not even as a new track in the same design... even though adapter pieces are common between track types.  Thus, they would have to be an expansion the Ninco set... making it very big... sigh.  Also, again, the lack of support for non-ambidextrous curves will be a confusion point for the user (using/inventorying start/end pieces, also the inside/outside thing).
 
-- Tracker 2000 does not color-code track pieces (an idea that came later in history).  In theory, one could add this feature by adding colored polygons on top of the track shape (like I do for snow and off-road track with Ninco)... but that sounds like maybe more work than it is worth.  But others may try it.  In which case, the tool might be expanded to make it easier to swap color-coded and non-color-coded track defs in and out.
+- Tracker 2000 does not color-code track pieces (an idea that came later in history).  In theory, one could add this feature by adding colored polygons on top of the track shape (like I do for snow and off-road track with Ninco)... but that sounds like maybe more work than it is worth.  But others may try it.  In which case, the tool might be expanded to make it easier to swap color-coded and non-color-coded track defs in and out.  Only the corners need color coding, in my opinion, though some apps color the straights as well.
 
 - Changing the red track paint to another shade of red has been considered to keep Tracker from autocoloring it to other lane colors (like it does with lanes 3+, and left/right red/green curve swapping).  But I have not done this thus far because the color picker is very limited in color shades, leaving only dark red and pink as the other red options.  I could enter any red shade via text editor... but then that becomes difficult and mysterious for others to understand what is going on and to duplicate and/or maintain.  Thus, I'm letting this one be and it is what it is until a better color picker arrives (which will be never).
 
